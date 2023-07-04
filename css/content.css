@@ -1,0 +1,143 @@
+#content-container {
+    padding-top: 11.458333vw;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f8f9fa;
+  }
+  
+  .content-block {
+    margin-bottom: 13.489583vw;
+  
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .content-desc {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.5;
+  }
+  
+  .content-desc > h3 {
+    font-size: 3.125rem;
+    margin: 0 0 10px 0;
+  }
+
+  #content-worldvision {
+    background-image: url("./../images/content_worldvision.png");
+    background-size: cover;
+
+    color:white;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  @media all and (min-width:1280px) { 
+    #content-container {
+      padding-top: 220px;
+    }
+
+    .content-block {
+      margin-bottom: 260px;
+    }
+
+    .content-desc {
+      margin-left: 25px;
+      margin-right: 25px;
+    }
+  
+    #content-worldvision {
+      width: 1060px;
+      height: 626px;
+    }
+    #content-desc-worldvision {
+      align-self: end;
+      width: 485px;
+    }
+    #content-desc-charip{
+      width: 570px;
+    }
+    #content-desc-voice-drama {
+      width: 490px;
+    }
+    #content-desc-music {
+      width: 430px;
+    }
+  } 
+  @media all and (max-width:1279px) and (min-width:750px){ 
+    #content-container {
+      padding-top: 80px;
+    }
+
+    .content-block {
+      flex-direction: column;
+      margin-bottom: 80px;
+    }
+    
+    .content-desc {
+      margin-bottom: 18px;
+    }
+
+    #content-desc-worldvision {
+      margin: 39px 92px 75px 32px;
+    }
+
+    #content-block-voice-drama {
+      flex-direction: column-reverse;
+    }
+
+    #content-desc-charip {
+      position: absolute;
+      z-index: 1;
+      margin-top: 60px;
+      width: 340px;
+    }
+
+    #content-image-charip {
+      align-self: end;
+    }
+    #content-image-charip > img {
+      /* width: 60vw; */
+    }
+  } 
+  @media all and (max-width:749px) {
+    #content-container {
+      padding-top: 10vw;
+    }
+
+    .content-block {
+      flex-direction: column;
+      margin-bottom: 10vw;
+    }
+    
+    .content-desc {
+      margin-bottom: 2.4vw;
+    }
+
+    #content-desc-worldvision {
+      margin: 5.2vw 12.26vw 10vw 4.26vw;
+    }
+
+    #content-block-voice-drama {
+      flex-direction: column-reverse;
+    }
+
+    #content-desc-charip {
+      position: absolute;
+      z-index: 1;
+      margin-top: 8vw;
+      width: 45.3vw;
+    }
+
+    #content-image-charip {
+      align-self: end;
+    }
+    #content-image-charip > img{
+      width: 60vw;
+    }
+
+  }

@@ -1,0 +1,65 @@
+
+#guide-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.guide-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.guide-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.guide-title-deco {
+    width: 5px;
+    height: 2.5rem;
+    background: #bfff00;
+    margin-right: 15px;
+}
+
+.guide-title > h3 {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 2.5rem;
+    padding: 0;
+    margin: 0;
+}
+
+.guide-desc {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1rem;
+}
+
+@media all and (min-width:1280px) {
+    #guide-container {
+        padding-top: 259px;
+        padding-bottom: 123px;
+    }
+    .guide-block {
+        margin-bottom: 136px;
+    }
+}
+@media all and (max-width:1279px) and (min-width:750px) {
+    #guide-container {
+        padding-top: 120px;
+        padding-bottom: 40px;
+    }
+    .guide-block {
+        margin-bottom: 80px;
+    }
+}
+@media all and (max-width:749px) {
+    #guide-container {
+        padding-top: 16vw;
+        padding-bottom: 5.3vw;
+    }
+    .guide-block {
+        margin-bottom: 10.6vw;
+    }
+}
