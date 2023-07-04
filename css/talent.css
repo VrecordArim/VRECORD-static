@@ -43,7 +43,7 @@
 }
 
 .talent-icon-item {
-  background-image: url("../images/char_bg.png");
+  background-image: url("../image/char_bg.png");
   background-size: cover;
   display: flex;
   align-items: flex-end;
@@ -57,7 +57,7 @@
 }
 
 .talent-icon-item-sel {
-  background-image: url("../images/char_bg_sel.png");
+  background-image: url("../image/char_bg_sel.png");
   background-size: cover;
   display: flex;
   align-items: flex-end;

@@ -5,13 +5,13 @@
     <meta charset="utf-8" />
 
     <title>VRECORD</title>
-    <link rel="icon" href="/favicon.ico" />
+    <link rel="icon" href="./favicon.ico" />
 
     <meta property="og:title" content="VRECORD" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://vrecord.co.kr" />
     <meta property="og:description" content="VRECORD는 버추얼 스트리머 전문 MCN 입니다." />
-    <meta property="og:image" content="images/preview.png" />
+    <meta property="og:image" content="image/preview.png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <link rel="manifest" href="/manifest.json" />
@@ -22,16 +22,249 @@
     <link href="./css/guide.css" rel="stylesheet">
     
     <script src="./js/index.js"></script>
+    <script src="./js/navi.js"></script>
+    <script src="./js/talent.js"></script>
+
+    <script>
+function onInitialized() {
+    switchTalent0();
+}
+    </script>
 </head>
 
-<body>
-    
+<body onload="onInitialized();">
+
 <div id="header">      
-    <div className='apply'>
+    <div class='apply'>
         <a href='https://windy-clutch-70f.notion.site/VRECORD-2a4375b719494227986262e75ca8e3e4'>지원하기</a>
     </div>
 </div>
 
+
+
+<div class="nav-container">
+    <div class="nav-item nav-selected" onClick="onClickHome();">HOME</div>
+    <div class="nav-item" onClick="onClickTalent();">TALENT</div>
+    <div class="nav-item" onClick="onClickContent();">CONTENT</div>
+    <div class="nav-item" onClick="onClickGuide();">GUIDE</div>
+</div>
+
+
+
+<div id="talent-container">
+    <div class="wrap">
+
+      <div class="talent-content">
+        <div id="talent-name"></div>
+
+        <div id="talent-link">
+          <a href="https://www.youtube.com/" target="_blank"><img src="./image/icon_youtube.png" /></a>
+          <a href="https://twitter.com/" target="_blank"><img src="./image/icon_twitter.png" /></a>
+          <a href="https://www.twitch.tv/" target="_blank"><img src="./image/icon_twitch.png" /></a>
+        </div>
+
+        <div id="talent-story">
+        </div>
+      </div>
+
+      <div class="talent-icon-container">
+        <div class="talent-icon-item-sel" onClick="switchTalent0();">
+          <img class="talent-image" src="./image/char_deus.png" />
+        </div>
+        <div class="talent-icon-item" onClick="switchTalent1();">
+          <img class="talent-image" src="./image/char_yunon.png" />
+        </div>
+        <div class="talent-icon-item" onClick="switchTalent2();">
+          <img class="talent-image" src="./image/char_chyoki.png" />
+        </div>
+        <div class="talent-icon-item" onClick="switchTalent3();">
+          <img class="talent-image" src="./image/char_piyo.png" />
+        </div>
+      </div>
+
+    </div>
+</div>
+
+
+
+<div id="content-container">
+    <div class="wrap">
+
+      <div class="content-block" id="content-worldvision">
+        <div class="content-desc" id="content-desc-worldvision">
+          <h3><b>세계관</b></h3>
+          <div class='showOnlyDesktop'>
+            <p>전 세계 아니, 전 우주에서 모이는 편견도 부패도 없는</p>
+            <p>지고의 아카데미 VRECORD. 메디치 가문의 활약으로</p>
+            <p>이탈리아의 르네상스가 꽃 피었듯이. 다양한 특기자를</p>
+            <p>모아 서로의 기술을 증진 시키고 경쟁하며 훌륭한</p>
+            <p>전문가들을 양성해낸다. 고로 특기자들에 대한 대우가</p>
+            <p>각별한데, 입학과 함께 본인 특기의 부실 설립과</p>
+            <p>활동시간이 보장된다. 내부에는 다양한 편의 및 놀이</p>
+            <p>시설들이 존재한다.</p>
+          </div>
+          <div class='showOnlyTablet'>
+            <p>전 세계 아니, 전 우주에서 모이는 편견도 부패도 없는 지고의</p>
+            <p>아카데미 VRECORD. 메디치 가문의 활약으로 이탈리아의</p>
+            <p>르네상스가 꽃 피었듯이. 다양한 특기자를 모아 서로의 기술을</p>
+            <p>증진 시키고 경쟁하며 훌륭한 전문가들을 양성해낸다. 고로</p>
+            <p>특기자들에 대한 대우가 각별한데, 입학과 함께 본인 특기의</p>
+            <p>부실 설립과 활동시간이 보장된다. 내부에는 다양한 편의 및 놀이</p>
+            <p>시설들이 존재한다.</p>
+          </div>
+          <div class='showOnlyMobile'>
+            전 세계 아니, 전 우주에서 모이는 편견도 부패도 없는
+            지고의 아카데미 VRECORD. 메디치 가문의 활약으로
+            이탈리아의 르네상스가 꽃 피었듯이. 다양한 특기자를
+            모아 서로의 기술을 증진 시키고 경쟁하며 훌륭한
+            전문가들을 양성해낸다. 고로 특기자들에 대한 대우가
+            각별한데, 입학과 함께 본인 특기의 부실 설립과
+            활동시간이 보장된다. 내부에는 다양한 편의 및 놀이
+            시설들이 존재한다.
+          </div>
+        </div>
+      </div>
+
+
+      <div class="content-block" id='content-block-charip'>
+        <div class="content-desc" id="content-desc-charip">
+          <h3><b>캐릭터 IP</b></h3>
+          <div class='showOnlyDesktop'>
+            <p>버추얼 스트리머들은 모두 개성을 외적으로 표출합니다.</p>
+            <p>본인의 매력이 담긴 캐릭터는 시청자로 하여금 좀 더 컨텐츠에</p>
+            <p>깊게 몰입할 수 있는 장치가 됩니다. 또한 다양한 배경 스토리와</p>
+            <p>이야기는 2차 창작에 훌륭한 거름이 되어줍니다.</p>
+          </div>
+          <div class='showOnlyTablet'>
+            <p>버추얼 스트리머들은 모두 개성을</p>
+            <p>외적으로 표출합니다. 본인의 매력이 담긴</p>
+            <p>캐릭터는 시청자로 하여금 좀 더 컨텐츠에</p>
+            <p>깊게 몰입할 수 있는 장치가 됩니다. 또한</p>
+            <p>다양한 배경 스토리와 이야기는 2차</p>
+            <p>창작에 훌륭한 거름이 되어줍니다.</p>
+          </div>
+          <div class='showOnlyMobile'>
+            버추얼 스트리머들은 모두 개성을 외적으로 표출합니다.
+            본인의 매력이 담긴 캐릭터는 시청자로 하여금 좀 더 컨텐츠에
+            깊게 몰입할 수 있는 장치가 됩니다. 또한 다양한 배경 스토리와
+            이야기는 2차 창작에 훌륭한 거름이 되어줍니다.
+          </div>
+        </div>
+        <div id="content-image-charip">
+          <img src="./image/content_char_ip.png" />
+        </div>
+      </div>
+
+
+      <div class="content-block"  id='content-block-voice-drama'>
+        <img src="./image/content_voice_drama.png" />
+        <div class="content-desc" id="content-desc-voice-drama">
+          <h3><b>보이스 드라마</b></h3>
+          <div class='showOnlyDesktop'>
+            <p>세계관과 캐릭터 IP 그리고 스트리머의 역량을 제일</p>
+            <p>잘 보여줄 수 있는 컨텐츠로, 본인 이야기를 음성으로</p>
+            <p>풀어냅니다. 과거의 이야기로 캐릭터의 서사를 이해</p>
+            <p>할 수 있고 현재의 이야기로 세계관을 더 확장해 나갈</p>
+            <p>수 있습니다. 확장된 이야기는 시청자들로 하여금</p>
+            <p>브이레코드의 세계에 빠져서 즐길 거리를 늘려줍니다.</p>
+          </div>
+          <div class='showOnlyTablet'>
+            <p>세계관과 캐릭터 IP 그리고 스트리머의 역량을 제일 잘 보여줄 수 있는</p>
+            <p>컨텐츠로, 본인 이야기를 음성으로 풀어냅니다. 과거의 이야기로 캐릭터의</p>
+            <p>서사를 이해 할 수 있고 현재의 이야기로 세계관을 더 확장해 나갈 수</p>
+            <p>있습니다. 확장된 이야기는 시청자들로 하여금 브이레코드의</p>
+            <p>세계에 빠져서 즐길 거리를 늘려줍니다.</p>
+          </div>
+          <div class='showOnlyMobile'>
+            세계관과 캐릭터 IP 그리고 스트리머의 역량을 제일
+            잘 보여줄 수 있는 컨텐츠로, 본인 이야기를 음성으로
+            풀어냅니다. 과거의 이야기로 캐릭터의 서사를 이해
+            할 수 있고 현재의 이야기로 세계관을 더 확장해 나갈
+            수 있습니다. 확장된 이야기는 시청자들로 하여금
+            브이레코드의 세계에 빠져서 즐길 거리를 늘려줍니다.
+          </div>
+        </div>
+      </div>
+
+
+      <div class="content-block">
+        <div class="content-desc" id="content-desc-music">
+          <h3><b>음원</b></h3>
+          <div class='showOnlyDesktop'>
+            <p>커버 음원을 통해 기존 캐릭터의 다른 컨셉을</p>
+            <p>어필할 수 있습니다. 또한 해당 음악의 팬들에게</p>
+            <p>추가 노출이 가능합니다. 그리고 향후 오리지널</p>
+            <p>음원을 발매하여 본인의 매력을 어필합니다.</p>
+          </div>
+          <div class='showOnlyTablet'>
+            <p>커버 음원을 통해 기존 캐릭터의 다른 컨셉을 어필할 수 있습니다. 또한 해당</p>
+            <p>음악의 팬들에게 추가 노출이 가능합니다. 그리고 향후 오리지널 음원을</p>
+            <p>발매하여 본인의 매력을 어필합니다.</p>
+          </div>
+          <div class='showOnlyMobile'>
+            커버 음원을 통해 기존 캐릭터의 다른 컨셉을
+            어필할 수 있습니다. 또한 해당 음악의 팬들에게
+            추가 노출이 가능합니다. 그리고 향후 오리지널
+            음원을 발매하여 본인의 매력을 어필합니다.
+          </div>
+        </div>
+        <img src="./image/content_music.png" />
+      </div>
+    </div>
+</div>
+
+<div id="guide-container">
+    <div class="wrap">
+
+      <div class="guide-block">
+        <div class="guide-title">
+          <div class="guide-title-deco"> </div>
+          <h3><b>2차 창작물 굿즈 제한 기준</b></h3>
+        </div>
+        <div class="guide-desc">
+          <p>VRECORD 2차 창작물 굿즈는 자유롭게 제작 및 판매, 교환, 양도 가능합니다.</p>
+          <p>단, 이 때 상표권 및 저작권 침해가 있어서는 안되며 사업화 및 대규모 생산은 반드시 사전 협의가 필요합니다.</p>
+          <p>이를 지키지 않을 경우 법적인 제재를 가할 수 있습니다.</p>
+        </div>
+      </div>
+
+      <div class="guide-block">
+        <div class="guide-title">
+          <div class="guide-title-deco"> </div>
+          <h3><b>2차 창작물 이용 제한 기준</b></h3>
+        </div>
+        <div class="guide-desc">
+          <p>1. 인간, 동물을 포함한 생명을 대상으로 살상, 폭행, 협박, 학대 행위 등을 자세하게 묘사할 경우</p>
+          <p>2. 국가 및 역사, 정치적 사건을 왜곡하고 대상을 음해하는 내용이 포함되는 경우</p>
+          <p>3. 흉기 및 상해를 입힐 수 있는 물건으로 과도하게 신체를 손상시켜 단면을 노출시키거나, 장기를 표현하는 등 생명을 경시하는 내용이 포함되는 경우</p>
+          <p>4. 육체적, 정신적 고통을 과하게 사실적으로 표현하여 타인에게 혐오감을 주는 내용이 포함된 경우</p>
+          <p>5. 특정 단체 및 커뮤니티 비하를 위해 사용되는 단어나 문장 등과 연관지어 왜곡하고 유포하는 경우</p>
+        </div>
+      </div>
+
+      <div class="guide-block">
+        <div class="guide-title">
+          <div class="guide-title-deco"> </div>
+          <h3><b>2차 창작물 ip 활용 동의</b></h3>
+        </div>
+        <div class="guide-desc">
+          <p>VRECORD가 지정한 Fan Art 태그가 포함된 게시글은 영상의 썸네일, 채널 아트, SNS 등에 활용되는 것에 동의한 것으로 판단합니다.</p>
+          <p>단, 직접적인 상업 활동(월페이퍼 제작, 음원 판매 등)에 사용되는 경우에는 제작자와의 계약 혹은 협의 단계를 거쳐 활용합니다.</p>
+        </div>
+      </div>
+    </div>
+</div>
+
+<div class="footer-container">
+    <div class="footer-content">
+      <span><a href='mailto:Arim@vrecord.co.kr' target='_blank'>문의: Arim@vrecord.co.kr</a></span>
+      <span><a href='https://www.youtube.com/channel/UCCK-rH0e9L8flCF-JVPlvLg' target='_blank'>YOUTUBE</a></span>
+      <span><a href='https://twitter.com/vrecordinfo'  target='_blank'>TWITTER</a></span>
+    </div>
+    <div class="footer-content">
+      <span>ⓒ COPYRIGHT VRECORD 2021. THEME BY VRECORD.</span>
+    </div>
+</div>
 
 </body>
 

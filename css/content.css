@@ -26,7 +26,7 @@
   }
 
   #content-worldvision {
-    background-image: url("./../images/content_worldvision.png");
+    background-image: url("../image/content_worldvision.png");
     background-size: cover;
 
     color:white;
