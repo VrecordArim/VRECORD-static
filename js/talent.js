@@ -9,6 +9,7 @@ function switchTalent(id) {
     contracts.children[2].href = data.url_twitch;
 
     updateTalentHighlight(id);
+    scrollIntoTalentView();
 }
 
 function getTalentData(id) {
@@ -45,6 +46,38 @@ function getTalentData(id) {
                 url_twitter: "https://twitter.com/vrecord_piyo",
                 url_twitch:  "https://www.twitch.tv/vrecord_piyo"
             };
+        case 4:
+            return {
+                name: "루시드",
+                storyHTML: "<div>임시 스토리 문구</div>",
+                url_youtube: "https://www.youtube.com/channel/UC8QeHScawb-0VWS8iudrVfg",
+                url_twitter: "https://twitter.com/vrecord_deus",
+                url_twitch: "https://www.twitch.tv/vrecord_deus"
+            };
+        case 5:
+            return {
+                name: "메리 크림치즈",
+                storyHTML: "<div>임시 스토리 문구</div>",
+                url_youtube: "https://www.youtube.com/channel/UCtD8lp3h303iLyIJZ9c2lYA",
+                url_twitter: "https://twitter.com/vrecord_yunon",
+                url_twitch: "https://www.twitch.tv/vrecord_yunon",
+            };
+        case 6:
+            return {
+                name: "마시마로 뮤이",
+                storyHTML: "<div>임시 스토리 문구</div>",
+                url_youtube: "https://www.youtube.com/channel/UCABTQDxcB81jtk9UotbMD8w",
+                url_twitter: "https://twitter.com/vrecord_choki",
+                url_twitch: "https://www.twitch.tv/vrecord_choki"
+            };
+        case 7:
+            return {
+                name: "세비아",
+                storyHTML: "<div>임시 스토리 문구</div>",
+                url_youtube: "https://www.youtube.com/channel/UCC9Os6IqvCpCIpC1VoCfwPw",
+                url_twitter: "https://twitter.com/vrecord_piyo",
+                url_twitch:  "https://www.twitch.tv/vrecord_piyo"
+            };
     }
 }
 
@@ -62,4 +95,8 @@ function updateTalentHighlight(selectedId) {
             views[i].classList.add("talent-icon-item");
         }
     }
+}
+
+function scrollIntoTalentView() {
+    document.getElementById("talent-container").scrollIntoView({behavior: "smooth"});
 }
