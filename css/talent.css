@@ -40,7 +40,11 @@
 .talent-icon-container {
   display:flex;
   justify-content: space-between;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
+}
+
+.talent-item {
+  margin-top: 8px;
 }
 
 .talent-icon-item {
