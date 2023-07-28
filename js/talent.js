@@ -1,4 +1,4 @@
-function switchTalent(id) {
+function switchTalent(id, scrollIntoView = true) {
     var data = getTalentData(id);
     document.getElementById("talent-name").innerText = data.name;
     document.getElementById("talent-story").innerHTML = data.storyHTML;
@@ -9,7 +9,8 @@ function switchTalent(id) {
     contracts.children[2].href = data.url_twitch;
 
     updateTalentHighlight(id);
-    scrollIntoTalentView();
+    if (scrollIntoView== true)
+        scrollIntoTalentView();
 }
 
 function getTalentData(id) {
