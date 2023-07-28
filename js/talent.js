@@ -98,5 +98,5 @@ function updateTalentHighlight(selectedId) {
 }
 
 function scrollIntoTalentView() {
-    document.getElementById("talent-container").scrollIntoView({behavior: "smooth"});
+    document.getElementById("talent-container").scrollIntoView({behavior: "auto"});
 }
