@@ -49,34 +49,34 @@ function getTalentData(id) {
         case 4:
             return {
                 name: "마시마로 뮤이",
-                storyHTML: "<div class='showNoMobile'><p>마시멜로 동물들이 사는 마시마로 포레스트의 주인.. 이였으나,</p><p>브이레코드의 제안에 개간 작업을 하다 문화제가 출토되어 국가에 땅을 뺏긴다.</p><p>갈 곳 잃은 동물들과 뮤이는 결국 세계를 전전하다 브이레코드에 입학한다.</p></div><div class='showOnlyMobile'>마시멜로 동물들이 사는 마시마로 포레스트의 주인.. 이였으나, 브이레코드의 제안에 개간 작업을 하다 문화제가 출토되어 국가에 땅을 뺏긴다. 갈 곳 잃은 동물들과 뮤이는 결국 세계를 전전하다 브이레코드에 입학한다.</div>",
-                url_youtube: "https://www.youtube.com/channel/UCABTQDxcB81jtk9UotbMD8w",
-                url_twitter: "https://twitter.com/vrecord_choki",
-                url_twitch: "https://www.twitch.tv/vrecord_choki"
+                storyHTML: "<div class='showNoMobile'><p>마시멜로 동물들이 사는 마시마로 포레스트의 주인.. 이였으나,</p><p>브이레코드의 제안에 개간 작업을 하다 문화재가 출토되어 국가에 땅을 뺏긴다.</p><p>갈 곳 잃은 동물들과 뮤이는 결국 세계를 전전하다 브이레코드에 입학한다.</p></div><div class='showOnlyMobile'>마시멜로 동물들이 사는 마시마로 포레스트의 주인.. 이였으나, 브이레코드의 제안에 개간 작업을 하다 문화재가 출토되어 국가에 땅을 뺏긴다. 갈 곳 잃은 동물들과 뮤이는 결국 세계를 전전하다 브이레코드에 입학한다.</div>",
+                url_youtube: "https://www.youtube.com/channel/UCOYiCg4UBwJd_0Rp2Z7VPhQ",
+                url_twitter: "https://twitter.com/vrecord_myui",
+                url_twitch: "https://www.twitch.tv/vrecord_myui"
             };
         case 5:
             return {
                 name: "메리 크림치즈",
                 storyHTML: "<div class='showNoMobile'><p>엄마가 사라진 사이 들이닥친 늑대가 무서워 벽시계에 숨었는데,</p><p>그때의 트라우마로 머리털이 직모가 되어버렸다.</p><p>해당 현상을 고치기 위해 다양한 지식이 모인다는 브이레코드에 입학했다.</p></div><div class='showOnlyMobile'>엄마가 사라진 사이 들이닥친 늑대가 무서워 벽시계에 숨었는데, 그때의 트라우마로 머리털이 직모가 되어버렸다. 해당 현상을 고치기 위해 다양한 지식이 모인다는 브이레코드에 입학했다.</div>",
-                url_youtube: "https://www.youtube.com/channel/UCtD8lp3h303iLyIJZ9c2lYA",
-                url_twitter: "https://twitter.com/vrecord_yunon",
-                url_twitch: "https://www.twitch.tv/vrecord_yunon",
+                url_youtube: "https://www.youtube.com/channel/UCCDx3QSux3NO58afjpHNmkQ",
+                url_twitter: "https://twitter.com/vrecord_merry",
+                url_twitch: "https://www.twitch.tv/vrecord_merry",
             };
         case 6:
             return {
                 name: "루시드",
                 storyHTML: "<div class='showNoMobile'><p>신의 어머니와 인간인 아버지 사이에 태어난 반신 반인 루시드.</p>어머니는 신의 업무를 하며 자신은 거의 아버지 손에 자라게 되었고,<p></p><p>오랜 기간 인간으로서 살게 되어 자신의 신적 능력을 인간을 이롭게 하는데 쓰고자 입학했다.</p></div><div class='showOnlyMobile'>신의 어머니와 인간인 아버지 사이에 태어난 반신 반인 루시드. 어머니는 신의 업무를 하며 자신은 거의 아버지 손에 자라게 되었고, 오랜 기간 인간으로서 살게 되어 자신의 신적 능력을 인간을 이롭게 하는데 쓰고자 입학했다.</div>",
-                url_youtube: "https://www.youtube.com/channel/UC8QeHScawb-0VWS8iudrVfg",
-                url_twitter: "https://twitter.com/vrecord_deus",
-                url_twitch: "https://www.twitch.tv/vrecord_deus"
+                url_youtube: "https://www.youtube.com/@vrecord_luxeed",
+                url_twitter: "https://twitter.com/vrecord_luxeed",
+                url_twitch: "https://www.twitch.tv/vrecord_luxeed"
             };
         case 7:
             return {
                 name: "세비아",
-                storyHTML: "<div class='showNoMobile'><p>과거 수호령이었으나, 인간을 구하려 자신의 모습을 드러내다 지위를 박탈당해 평범한 유령이 된 세비아.</p><p>어느 날 자신이 구해줬던 인간이 바다에 남긴 편지를 보게 된다.</p><p>마지막으로 한번 더 그 아이를 보기 위해 브이레코드에 입학하게 된다.</p></div><div class='showOnlyMobile'>과거 수호령이었으나, 인간을 구하려 자신의 모습을 드러내다 지위를 박탈당해 평범한 유령이 된 세비아. 어느 날 자신이 구해줬던 인간이 바다에 남긴 편지를 보게 된다. 마지막으로 한번 더 그 아이를 보기 위해 브이레코드에 입학하게 된다.</div>",
-                url_youtube: "https://www.youtube.com/channel/UCC9Os6IqvCpCIpC1VoCfwPw",
-                url_twitter: "https://twitter.com/vrecord_piyo",
-                url_twitch:  "https://www.twitch.tv/vrecord_piyo"
+                storyHTML: "<div class='showNoMobile'><p>과거 수호령이였으나, 인간을 구하려 자신의 모습을 드러내다 지위를 박탈당해 평범한 유령이 된 세비아.</p><p>어느 날 자신이 구해줬던 인간이 바다에 남긴 편지를 보게 된다.</p><p>마지막으로 한번 더 그 아이를 보기 위해 브이레코드에 입학하게 된다.</p></div><div class='showOnlyMobile'>과거 수호령이였으나, 인간을 구하려 자신의 모습을 드러내다 지위를 박탈당해 평범한 유령이 된 세비아. 어느 날 자신이 구해줬던 인간이 바다에 남긴 편지를 보게 된다. 마지막으로 한번 더 그 아이를 보기 위해 브이레코드에 입학하게 된다.</div>",
+                url_youtube: "https://www.youtube.com/channel/UCa1PjkjBFP5KNhPA9UIgr4A",
+                url_twitter: "https://twitter.com/vrecord_sevia",
+                url_twitch:  "https://www.twitch.tv/vrecord_sevia"
             };
     }
 }
