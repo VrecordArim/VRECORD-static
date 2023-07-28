@@ -66,7 +66,7 @@ function getTalentData(id) {
         case 6:
             return {
                 name: "루시드",
-                storyHTML: "<div class='showNoMobile'><p>신의 어머니와 인간인 아버지 사이에 태어난 반신 반인 루시드.</p>어머니는 신의 업무를 하며 자신은 거의 아버지 손에 자라게 되었고,<p></p><p>오랜 기간 인간으로서 살게 되어 자신의 신적 능력을 인간을 이롭게 하는데 쓰고자 입학했다.</p></div><div class='showOnlyMobile'>신의 어머니와 인간인 아버지 사이에 태어난 반신 반인 루시드. 어머니는 신의 업무를 하며 자신은 거의 아버지 손에 자라게 되었고, 오랜 기간 인간으로서 살게 되어 자신의 신적 능력을 인간을 이롭게 하는데 쓰고자 입학했다.</div>",
+                storyHTML: "<div class='showNoMobile'><p>신의 어머니와 인간인 아버지 사이에 태어난 반신 반인 루시드.</p><p>어머니는 신의 업무를 하며 자신은 거의 아버지 손에 자라게 되었고,</p><p>오랜 기간 인간으로서 살게 되어 자신의 신적 능력을 인간을 이롭게 하는데 쓰고자 입학했다.</p></div><div class='showOnlyMobile'>신의 어머니와 인간인 아버지 사이에 태어난 반신 반인 루시드. 어머니는 신의 업무를 하며 자신은 거의 아버지 손에 자라게 되었고, 오랜 기간 인간으로서 살게 되어 자신의 신적 능력을 인간을 이롭게 하는데 쓰고자 입학했다.</div>",
                 url_youtube: "https://www.youtube.com/@vrecord_luxeed",
                 url_twitter: "https://twitter.com/vrecord_luxeed",
                 url_twitch: "https://www.twitch.tv/vrecord_luxeed"
