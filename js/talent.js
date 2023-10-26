@@ -85,6 +85,9 @@ function getTalentData(id) {
 function updateTalentHighlight(selectedId) {
     const talentContainer = document.getElementsByClassName("talent-icon-container")[0];
     const views = talentContainer.querySelectorAll('.talent-item');
+
+    // 데우스 님 졸업에 따른 인덱스 보정
+    selectedId -= 1;
     
     for (let i = 0; i < views.length; i++) {
         if (i == selectedId) {
