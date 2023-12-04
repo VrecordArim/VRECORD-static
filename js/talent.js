@@ -83,9 +83,9 @@ function getTalentData(id) {
             return {
                 name: "차가운",
                 storyHTML: "<div class='showNoMobile'><p>시고르자브종으로 태어나 일찍이 죽은 강아지.</p><p>기적적으로 전생을 기억하고 환생했으며, 한 아이에게서 돌봐질 때</p><p>배웠던 노래들로 이 세상을 살아가게 된다.</p></div><div class='showOnlyMobile'>시고르자브종으로 태어나 일찍이 죽은 강아지. 기적적으로 전생을 기억하고 환생했으며, 한 아이에게서 돌봐질 때 배웠던 노래들로 이 세상을 살아가게 된다.</div>",
-                url_youtube: "https://twitter.com/vrecord_gawoon",
-                url_twitter: "https://twitch.tv/vrecord_chagawoon",
-                url_twitch:  "https://youtube.com/@vrecord_chagawoon"
+                url_youtube: "https://youtube.com/@vrecord_chagawoon",
+                url_twitter: "https://twitter.com/vrecord_gawoon",
+                url_twitch:  "https://twitch.tv/vrecord_chagawoon"
             };
     }
 }
