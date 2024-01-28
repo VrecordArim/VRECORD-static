@@ -51,6 +51,7 @@ function getTalentData(id) {
                 url_twitter: "https://twitter.com/vrecord_piyo",
                 url_twitch:  "https://www.twitch.tv/vrecord_piyo"
             };
+            /*
         case 2:
             return {
                 name: "마시마로 뮤이",
@@ -59,6 +60,8 @@ function getTalentData(id) {
                 url_twitter: "https://twitter.com/vrecord_myui",
                 url_twitch: "https://www.twitch.tv/vrecord_myui"
             };
+            */
+            /*
         case 3:
             return {
                 name: "메리 크림치즈",
@@ -67,7 +70,8 @@ function getTalentData(id) {
                 url_twitter: "https://twitter.com/vrecord_merry",
                 url_twitch: "https://www.twitch.tv/vrecord_merry",
             };
-        case 4:
+            */
+        case 2:
             return {
                 name: "루시드",
                 storyHTML: "<div class='showNoMobile'><p>신의 어머니와 인간인 아버지 사이에 태어난 반신 반인 루시드.</p><p>어머니는 신의 업무를 하며 자신은 거의 아버지 손에 자라게 되었고,</p><p>오랜 기간 인간으로서 살게 되어 자신의 신적 능력을 인간을 이롭게 하는데 쓰고자 입학했다.</p></div><div class='showOnlyMobile'>신의 어머니와 인간인 아버지 사이에 태어난 반신 반인 루시드. 어머니는 신의 업무를 하며 자신은 거의 아버지 손에 자라게 되었고, 오랜 기간 인간으로서 살게 되어 자신의 신적 능력을 인간을 이롭게 하는데 쓰고자 입학했다.</div>",
@@ -75,7 +79,7 @@ function getTalentData(id) {
                 url_twitter: "https://twitter.com/vrecord_luxeed",
                 url_twitch: "https://www.twitch.tv/vrecord_luxeed"
             };
-        case 5:
+        case 3:
             return {
                 name: "세비아",
                 storyHTML: "<div class='showNoMobile'><p>과거 수호령이였으나, 인간을 구하려 자신의 모습을 드러내다 지위를 박탈당해 평범한 유령이 된 세비아.</p><p>어느 날 자신이 구해줬던 인간이 바다에 남긴 편지를 보게 된다.</p><p>마지막으로 한번 더 그 아이를 보기 위해 브이레코드에 입학하게 된다.</p></div><div class='showOnlyMobile'>과거 수호령이였으나, 인간을 구하려 자신의 모습을 드러내다 지위를 박탈당해 평범한 유령이 된 세비아. 어느 날 자신이 구해줬던 인간이 바다에 남긴 편지를 보게 된다. 마지막으로 한번 더 그 아이를 보기 위해 브이레코드에 입학하게 된다.</div>",
@@ -83,7 +87,7 @@ function getTalentData(id) {
                 url_twitter: "https://twitter.com/vrecord_sevia",
                 url_twitch:  "https://www.twitch.tv/vrecord_sevia"
             };
-        case 6:
+        case 4:
             return {
                 name: "차가운",
                 storyHTML: "<div class='showNoMobile'><p>시고르자브종으로 태어나 일찍이 죽은 강아지.</p><p>기적적으로 전생을 기억하고 환생했으며, 한 아이에게서 돌봐질 때</p><p>배웠던 노래들로 이 세상을 살아가게 된다.</p></div><div class='showOnlyMobile'>시고르자브종으로 태어나 일찍이 죽은 강아지. 기적적으로 전생을 기억하고 환생했으며, 한 아이에게서 돌봐질 때 배웠던 노래들로 이 세상을 살아가게 된다.</div>",
