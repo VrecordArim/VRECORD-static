@@ -97,7 +97,7 @@ function getTalentData(id) {
             };
         case 5:
             return {
-                name: "다비",
+                name: "다비",
                 storyHTML: "<div class='showNoMobile'><p>19세기 탐정의 수습 제자. 사건 해결 중에 습격을 받아 기절하게 되고 눈을 떠보니 21세기였다.</p><p>이게 무슨 일인지 알아보던 중, 타임슬립에 대해 알게 되고 과거로 돌아가기 위해</p><p>다양한 지식이 모인다는 브이레코드에 입학하게 되었다.</p></div><div class='showOnlyMobile'>19세기 탐정의 수습 제자. 사건 해결 중에 습격을 받아 기절하게 되고 눈을 떠보니 21세기였다. 이게 무슨 일인지 알아보던 중, 타임슬립에 대해 알게 되고 과거로 돌아가기 위해 다양한 지식이 모인다는 브이레코드에 입학하게 되었다.</div>",
                 url_youtube: "https://www.youtube.com/@vrecord_davi",
                 url_twitter: "https://twitter.com/vrecord_davi",
