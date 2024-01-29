@@ -31,7 +31,7 @@ function getTalentData(id) {
                 storyHTML: "<div class='showNoMobile'><p>어릴 적 자신을 구해주고 나침반을 맡긴 이를 찾아 떠도는 코요테 수인.</p><p>매사에 긍정적이고 잘 웃는 편이지만, 어째서인지 주변에서 사건 사고가 끊이지를 않는다.</p><p>운동을 싫어하고 낮잠을 즐긴다. 대부분 멍하니 앉아 있다가 생기는 문제들이 많다.</p></div><div class='showOnlyMobile'>어릴 적 자신을 구해주고 나침반을 맡긴 이를 찾아 떠도는 코요테 수인. 매사에 긍정적이고 잘 웃는 편이지만, 어째서인지 주변에서 사건 사고가 끊이지를 않는다. 운동을 싫어하고 낮잠을 즐긴다. 대부분 멍하니 앉아 있다가 생기는 문제들이 많다.</div>",
                 url_youtube: "https://www.youtube.com/channel/UCtD8lp3h303iLyIJZ9c2lYA",
                 url_twitter: "https://twitter.com/vrecord_yunon",
-                url_twitch: "https://www.twitch.tv/vrecord_yunon",
+                url_twitch: "https://chzzk.naver.com/575b8dd00630a025c9ad3729df908abf",
             };
         /*
         case 1:
@@ -49,7 +49,7 @@ function getTalentData(id) {
                 storyHTML: "<div class='showNoMobile'><p>오목눈이 수인으로, 태어날 때부터 본능적으로 지저귀는 새들과 달리 피요는 울음소리를</p><p>내지 못하였다. 다행히 인간형으로 변할 수 있게 되면서 목소리는 낼 수 있게 됐지만, 다른 새들처럼</p><p>아름다운 울음소리를 내고 싶어 다양한 지식이 모인다는 브이레코드를 찾게 되었다.</p></div><div class='showOnlyMobile'>오목눈이 수인으로, 태어날 때부터 본능적으로 지저귀는 새들과 달리 피요는 울음소리를 내지 못하였다. 다행히 인간형으로 변할 수 있게 되면서 목소리는 낼 수 있게 됐지만, 다른 새들처럼 아름다운 울음소리를 내고 싶어 다양한 지식이 모인다는 브이레코드를 찾게 되었다.</div>",
                 url_youtube: "https://www.youtube.com/channel/UCC9Os6IqvCpCIpC1VoCfwPw",
                 url_twitter: "https://twitter.com/vrecord_piyo",
-                url_twitch:  "https://www.twitch.tv/vrecord_piyo"
+                url_twitch:  "https://chzzk.naver.com/a45b82ecd09276230c84ae2ecb197c48"
             };
             /*
         case 2:
@@ -77,7 +77,7 @@ function getTalentData(id) {
                 storyHTML: "<div class='showNoMobile'><p>신의 어머니와 인간인 아버지 사이에 태어난 반신 반인 루시드.</p><p>어머니는 신의 업무를 하며 자신은 거의 아버지 손에 자라게 되었고,</p><p>오랜 기간 인간으로서 살게 되어 자신의 신적 능력을 인간을 이롭게 하는데 쓰고자 입학했다.</p></div><div class='showOnlyMobile'>신의 어머니와 인간인 아버지 사이에 태어난 반신 반인 루시드. 어머니는 신의 업무를 하며 자신은 거의 아버지 손에 자라게 되었고, 오랜 기간 인간으로서 살게 되어 자신의 신적 능력을 인간을 이롭게 하는데 쓰고자 입학했다.</div>",
                 url_youtube: "https://www.youtube.com/@vrecord_luxeed",
                 url_twitter: "https://twitter.com/vrecord_luxeed",
-                url_twitch: "https://www.twitch.tv/vrecord_luxeed"
+                url_twitch: "https://chzzk.naver.com/123121452613961512615dbaffc189b8"
             };
         case 3:
             return {
@@ -85,7 +85,7 @@ function getTalentData(id) {
                 storyHTML: "<div class='showNoMobile'><p>과거 수호령이였으나, 인간을 구하려 자신의 모습을 드러내다 지위를 박탈당해 평범한 유령이 된 세비아.</p><p>어느 날 자신이 구해줬던 인간이 바다에 남긴 편지를 보게 된다.</p><p>마지막으로 한번 더 그 아이를 보기 위해 브이레코드에 입학하게 된다.</p></div><div class='showOnlyMobile'>과거 수호령이였으나, 인간을 구하려 자신의 모습을 드러내다 지위를 박탈당해 평범한 유령이 된 세비아. 어느 날 자신이 구해줬던 인간이 바다에 남긴 편지를 보게 된다. 마지막으로 한번 더 그 아이를 보기 위해 브이레코드에 입학하게 된다.</div>",
                 url_youtube: "https://www.youtube.com/channel/UCa1PjkjBFP5KNhPA9UIgr4A",
                 url_twitter: "https://twitter.com/vrecord_sevia",
-                url_twitch:  "https://www.twitch.tv/vrecord_sevia"
+                url_twitch:  "https://chzzk.naver.com/17771d4b289c8c555a30a61de5679033"
             };
         case 4:
             return {
@@ -93,7 +93,23 @@ function getTalentData(id) {
                 storyHTML: "<div class='showNoMobile'><p>시고르자브종으로 태어나 일찍이 죽은 강아지.</p><p>기적적으로 전생을 기억하고 환생했으며, 한 아이에게서 돌봐질 때</p><p>배웠던 노래들로 이 세상을 살아가게 된다.</p></div><div class='showOnlyMobile'>시고르자브종으로 태어나 일찍이 죽은 강아지. 기적적으로 전생을 기억하고 환생했으며, 한 아이에게서 돌봐질 때 배웠던 노래들로 이 세상을 살아가게 된다.</div>",
                 url_youtube: "https://youtube.com/@vrecord_chagawoon",
                 url_twitter: "https://twitter.com/vrecord_gawoon",
-                url_twitch:  "https://twitch.tv/vrecord_chagawoon"
+                url_twitch:  "https://chzzk.naver.com/0a1aef49164865b71039a79b7cc32da5"
+            };
+        case 5:
+            return {
+                name: "다비",
+                storyHTML: "<div class='showNoMobile'><p>19세기 탐정의 수습 제자. 사건 해결 중에 습격을 받아 기절하게 되고 눈을 떠보니 21세기였다.</p><p>이게 무슨 일인지 알아보던 중, 타임슬립에 대해 알게 되고 과거로 돌아가기 위해</p><p>다양한 지식이 모인다는 브이레코드에 입학하게 되었다.</p></div><div class='showOnlyMobile'>19세기 탐정의 수습 제자. 사건 해결 중에 습격을 받아 기절하게 되고 눈을 떠보니 21세기였다. 이게 무슨 일인지 알아보던 중, 타임슬립에 대해 알게 되고 과거로 돌아가기 위해 다양한 지식이 모인다는 브이레코드에 입학하게 되었다.</div>",
+                url_youtube: "https://www.youtube.com/@vrecord_davi",
+                url_twitter: "https://twitter.com/vrecord_davi",
+                url_twitch:  "https://chzzk.naver.com/230384dde00b04200f1f7afc711dd7ad"
+            };
+        case 6:
+            return {
+                name: "천휘",
+                storyHTML: "<div class='showNoMobile'><p>북해의 피가 섞였단 이유로 버려졌다 천마신교에 거두어진 아이. 복수를 위해 살다 초대 천마의 진전을 이어받아 교주가 되었다.</p><p>그러나 복수에 눈이 멀어 급하게 정마대전을 일으키다 큰 내상을 입는다.</p><p>내상을 치료하고 이 허무를 치료하기 위해 브이레코드를 찾게된다.</p></div><div class='showOnlyMobile'>북해의 피가 섞였단 이유로 버려졌다 천마신교에 거두어진 아이. 복수를 위해 살다 초대 천마의 진전을 이어받아 교주가 되었다. 그러나 복수에 눈이 멀어 급하게 정마대전을 일으키다 큰 내상을 입는다. 내상을 치료하고 이 허무를 치료하기 위해 브이레코드를 찾게된다.</div>",
+                url_youtube: "https://www.youtube.com/@vrecord_chunma",
+                url_twitter: "https://twitter.com/vrecord_chunma",
+                url_twitch:  "https://chzzk.naver.com/c20ff005595d0f0ecba6b92712dcdd8d"
             };
     }
 }
