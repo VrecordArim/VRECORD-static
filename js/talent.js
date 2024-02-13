@@ -122,7 +122,7 @@ function getTalentData(id) {
         case 8:
             return {
                 name: "뮬",
-                toryHTML: "<div class='showNoMobile'><p>미확인 생물체 UMA.</p><p>인간의 외형을 띄고 있지만, 본체는 리본이라는 얘기가 있다.</p><p>정체를 알 수 없는 만큼 그녀가 입학한 목적 또한 그저 ‘재미’를 위해서라는 후문이 있다.</p></div><div class='showOnlyMobile'>미확인 생물체 UMA. 인간의 외형을 띄고 있지만, 본체는 리본이라는 얘기가 있다. 정체를 알 수 없는 만큼 그녀가 입학한 목적 또한 그저 ‘재미’를 위해서라는 후문이 있다.</div>",
+                storyHTML: "<div class='showNoMobile'><p>미확인 생물체 UMA.</p><p>인간의 외형을 띄고 있지만, 본체는 리본이라는 얘기가 있다.</p><p>정체를 알 수 없는 만큼 그녀가 입학한 목적 또한 그저 ‘재미’를 위해서라는 후문이 있다.</p></div><div class='showOnlyMobile'>미확인 생물체 UMA. 인간의 외형을 띄고 있지만, 본체는 리본이라는 얘기가 있다. 정체를 알 수 없는 만큼 그녀가 입학한 목적 또한 그저 ‘재미’를 위해서라는 후문이 있다.</div>",
                 url_youtube: "https://www.youtube.com/@vrecord_chunma",
                 url_twitter: "https://twitter.com/vrecord_chunma",
                 url_twitch:  "https://chzzk.naver.com/c20ff005595d0f0ecba6b92712dcdd8d"
