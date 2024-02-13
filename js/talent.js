@@ -116,7 +116,7 @@ function getTalentData(id) {
                 name: "헤스",
                 storyHTML: "<div class='showNoMobile'><p>뒷골목의 헤갱단을 이끄는 사슴 수인의 대장. 하지만 어째서인지 다른 이들에게 사슴이 아니라는 오해를 사게 되었다.</p><p>본인이 사슴임을 알리기 위한 방법을 모색 중, ‘학교’라는 곳에는 많은 인간이 모인다는 걸 알게 된다.</p><p>학교의 모든 이들을 조직에 입단시키기 위해 하월학원에 입학하게 된다.</p></div><div class='showOnlyMobile'>뒷골목의 헤갱단을 이끄는 사슴 수인의 대장. 하지만 어째서인지 다른 이들에게 사슴이 아니라는 오해를 사게 되었다. 본인이 사슴임을 알리기 위한 방법을 모색 중, ‘학교’라는 곳에는 많은 인간이 모인다는 걸 알게 된다. 학교의 모든 이들을 조직에 입단시키기 위해 하월학원에 입학하게 된다.</div>",
                 url_youtube: "https://www.youtube.com/c/HessofficialX3",
-                url_twitter: "https://twitter.com/_utahessS2",
+                url_twitter: "https://twitter.com/vrecord_Hess",
                 url_twitch:  "https://chzzk.naver.com/ca550a5a44db8e6cb67d3e2cefc16afb"
             };
         case 8:
