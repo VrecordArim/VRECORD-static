@@ -115,33 +115,33 @@ function getTalentData(id) {
             return {
                 name: "헤스",
                 storyHTML: "<div class='showNoMobile'><p>뒷골목의 헤갱단을 이끄는 사슴 수인의 대장. 하지만 어째서인지 다른 이들에게 사슴이 아니라는 오해를 사게 되었다.</p><p>본인이 사슴임을 알리기 위한 방법을 모색 중, ‘학교’라는 곳에는 많은 인간이 모인다는 걸 알게 된다.</p><p>학교의 모든 이들을 조직에 입단시키기 위해 하월학원에 입학하게 된다.</p></div><div class='showOnlyMobile'>뒷골목의 헤갱단을 이끄는 사슴 수인의 대장. 하지만 어째서인지 다른 이들에게 사슴이 아니라는 오해를 사게 되었다. 본인이 사슴임을 알리기 위한 방법을 모색 중, ‘학교’라는 곳에는 많은 인간이 모인다는 걸 알게 된다. 학교의 모든 이들을 조직에 입단시키기 위해 하월학원에 입학하게 된다.</div>",
-                url_youtube: "https://www.youtube.com/@vrecord_chunma",
-                url_twitter: "https://twitter.com/vrecord_chunma",
-                url_twitch:  "https://chzzk.naver.com/c20ff005595d0f0ecba6b92712dcdd8d"
+                url_youtube: "https://www.youtube.com/c/HessofficialX3",
+                url_twitter: "https://twitter.com/_utahessS2",
+                url_twitch:  "https://chzzk.naver.com/ca550a5a44db8e6cb67d3e2cefc16afb"
             };
         case 8:
             return {
                 name: "뮬",
                 storyHTML: "<div class='showNoMobile'><p>미확인 생물체 UMA.</p><p>인간의 외형을 띄고 있지만, 본체는 리본이라는 얘기가 있다.</p><p>정체를 알 수 없는 만큼 그녀가 입학한 목적 또한 그저 ‘재미’를 위해서라는 후문이 있다.</p></div><div class='showOnlyMobile'>미확인 생물체 UMA. 인간의 외형을 띄고 있지만, 본체는 리본이라는 얘기가 있다. 정체를 알 수 없는 만큼 그녀가 입학한 목적 또한 그저 ‘재미’를 위해서라는 후문이 있다.</div>",
-                url_youtube: "https://www.youtube.com/@vrecord_chunma",
-                url_twitter: "https://twitter.com/vrecord_chunma",
-                url_twitch:  "https://chzzk.naver.com/c20ff005595d0f0ecba6b92712dcdd8d"
+                url_youtube: "https://www.youtube.com/c/JnMYULee",
+                url_twitter: "https://twitter.com/Sing_Myu",
+                url_twitch:  "https://chzzk.naver.com/6b2e39072f3af6e84ee04d34aa164e57"
             };
         case 9:
             return {
                 name: "리리스",
                 storyHTML: "<div class='showNoMobile'><p>과거 마녀사냥으로 인해 죽을 뻔했던 인간.</p><p>도망치던 중, 자신을 스토킹하던 작은 흑염룡과 계약을 해 불로불사가 된다.</p><p>무료한 삶을 이어가던 중, 마녀도 받아주는 특이한 학교가 있다고 해 입학하게 된다.</p></div><div class='showOnlyMobile'>과거 마녀사냥으로 인해 죽을 뻔했던 인간. 도망치던 중, 자신을 스토킹하던 작은 흑염룡과 계약을 해 불로불사가 된다. 무료한 삶을 이어가던 중, 마녀도 받아주는 특이한 학교가 있다고 해 입학하게 된다.</div>",
-                url_youtube: "https://www.youtube.com/@vrecord_chunma",
-                url_twitter: "https://twitter.com/vrecord_chunma",
-                url_twitch:  "https://chzzk.naver.com/c20ff005595d0f0ecba6b92712dcdd8d"
+                url_youtube: "https://www.youtube.com/@vrecord_lilith",
+                url_twitter: "https://twitter.com/vrecord_lilith",
+                url_twitch:  "https://chzzk.naver.com/ca45c56f2e4bf7a9c4b6735677a5fefa"
             };
         case 10:
             return {
                 name: "타루",
                 storyHTML: "<div class='showNoMobile'><p>디지털 세계에 쌓인 로그 사이에서 태어난 고양이.</p><p>먹잇감을 쫓다 무수한 채팅 로그가 생성되는 인터넷 방송에 자리를 잡게 되고,</p><p>버튜버가 되어 치지직에서 데뷔를 하면 더 많은 로그를 먹을 수 있다는 생각에 하월학원에 입학하게 된다.</p></div><div class='showOnlyMobile'>디지털 세계에 쌓인 로그 사이에서 태어난 고양이. 먹잇감을 쫓다 무수한 채팅 로그가 생성되는 인터넷 방송에 자리를 잡게 되고, 버튜버가 되어 치지직에서 데뷔를 하면 더 많은 로그를 먹을 수 있다는 생각에 하월학원에 입학하게 된다.</div>",
-                url_youtube: "https://www.youtube.com/@vrecord_chunma",
-                url_twitter: "https://twitter.com/vrecord_chunma",
-                url_twitch:  "https://chzzk.naver.com/c20ff005595d0f0ecba6b92712dcdd8d"
+                url_youtube: "https://www.youtube.com/@vrecord_taru",
+                url_twitter: "https://twitter.com/vrecord_taru",
+                url_twitch:  "https://chzzk.naver.com/2b7010767bb282ba636b157b3c06937a"
             };
     }
 }
