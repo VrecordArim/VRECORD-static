@@ -151,7 +151,7 @@ function getTalentData(id) {
         case 9:
             return {
                 name: "달리",
-                storyHTML: "<div class='showNoMobile'><p>디지털 세계에 쌓인 로그 사이에서 태어난 고양이.</p><p>먹잇감을 쫓다 무수한 채팅 로그가 생성되는 인터넷 방송에 자리를 잡게 되고,</p><p>버튜버가 되어 치지직에서 데뷔를 하면 더 많은 로그를 먹을 수 있다는 생각에 하월학원에 입학하게 된다.</p></div><div class='showOnlyMobile'>디지털 세계에 쌓인 로그 사이에서 태어난 고양이. 먹잇감을 쫓다 무수한 채팅 로그가 생성되는 인터넷 방송에 자리를 잡게 되고, 버튜버가 되어 치지직에서 데뷔를 하면 더 많은 로그를 먹을 수 있다는 생각에 하월학원에 입학하게 된다.</div>",
+                storyHTML: "<div class='showNoMobile'><p>달나라의 메이드 카페에서 일하던 소수 민족.</p><p>음악을 사랑하여 다양한 악기를 다루고 싶어</p><p>핑크문이 뜨던 날 지구로 내려와 브이레코드에 입학했다.</p></div><div class='showOnlyMobile'>달나라의 메이드 카페에서 일하던 소수 민족. 음악을 사랑하여 다양한 악기를 다루고 싶어 핑크문이 뜨던 날 지구로 내려와 브이레코드에 입학했다.</div>",
                 url_youtube: "https://www.youtube.com/@vrecord_darli",
                 url_twitter: "https://x.com/vrecord_darli",
                 url_twitch:  "https://ch.sooplive.co.kr/darlida"
@@ -159,7 +159,7 @@ function getTalentData(id) {
         case 10:
             return {
                 name: "하리",
-                storyHTML: "<div class='showNoMobile'><p>디지털 세계에 쌓인 로그 사이에서 태어난 고양이.</p><p>먹잇감을 쫓다 무수한 채팅 로그가 생성되는 인터넷 방송에 자리를 잡게 되고,</p><p>버튜버가 되어 치지직에서 데뷔를 하면 더 많은 로그를 먹을 수 있다는 생각에 하월학원에 입학하게 된다.</p></div><div class='showOnlyMobile'>디지털 세계에 쌓인 로그 사이에서 태어난 고양이. 먹잇감을 쫓다 무수한 채팅 로그가 생성되는 인터넷 방송에 자리를 잡게 되고, 버튜버가 되어 치지직에서 데뷔를 하면 더 많은 로그를 먹을 수 있다는 생각에 하월학원에 입학하게 된다.</div>",
+                storyHTML: "<div class='showNoMobile'><p>길을 가다 바닥에 떨어진 브이레코드 전단지를 줍게 되고,</p><p>다른 내용은 하나도 이해하지 못했으나,</p><p>맛있는 디저트 제공이라는 문구에 이끌려 입학하게 되었다.</p></div><div class='showOnlyMobile'>길을 가다 바닥에 떨어진 브이레코드 전단지를 줍게 되고, 다른 내용은 하나도 이해하지 못했으나, 맛있는 디저트 제공이라는 문구에 이끌려 입학하게 되었다.</div>",
                 url_youtube: "https://www.youtube.com/@vrecord_hari",
                 url_twitter: "https://x.com/vrecord_hari",
                 url_twitch:  "https://ch.sooplive.co.kr/harivrecord"
@@ -167,7 +167,7 @@ function getTalentData(id) {
         case 11:
             return {
                 name: "사인",
-                storyHTML: "<div class='showNoMobile'><p>디지털 세계에 쌓인 로그 사이에서 태어난 고양이.</p><p>먹잇감을 쫓다 무수한 채팅 로그가 생성되는 인터넷 방송에 자리를 잡게 되고,</p><p>버튜버가 되어 치지직에서 데뷔를 하면 더 많은 로그를 먹을 수 있다는 생각에 하월학원에 입학하게 된다.</p></div><div class='showOnlyMobile'>디지털 세계에 쌓인 로그 사이에서 태어난 고양이. 먹잇감을 쫓다 무수한 채팅 로그가 생성되는 인터넷 방송에 자리를 잡게 되고, 버튜버가 되어 치지직에서 데뷔를 하면 더 많은 로그를 먹을 수 있다는 생각에 하월학원에 입학하게 된다.</div>",
+                storyHTML: "<div class='showNoMobile'><p>브이레코드의 비밀에 대해 조사 의뢰가 들어와 입학.</p><p>증거를 잡기 위해 모든 멤버들의 일거수일투족을 기록하고 있다.</p><p></p></div><div class='showOnlyMobile'>브이레코드의 비밀에 대해 조사 의뢰가 들어와 입학. 증거를 잡기 위해 모든 멤버들의 일거수일투족을 기록하고 있다.</div>",
                 url_youtube: "https://www.youtube.com/@vrecordsign",
                 url_twitter: "https://x.com/vrecord_sign",
                 url_twitch:  "https://ch.sooplive.co.kr/vrecordsign"
@@ -175,7 +175,7 @@ function getTalentData(id) {
         case 12:
             return {
                 name: "시오",
-                storyHTML: "<div class='showNoMobile'><p>디지털 세계에 쌓인 로그 사이에서 태어난 고양이.</p><p>먹잇감을 쫓다 무수한 채팅 로그가 생성되는 인터넷 방송에 자리를 잡게 되고,</p><p>버튜버가 되어 치지직에서 데뷔를 하면 더 많은 로그를 먹을 수 있다는 생각에 하월학원에 입학하게 된다.</p></div><div class='showOnlyMobile'>디지털 세계에 쌓인 로그 사이에서 태어난 고양이. 먹잇감을 쫓다 무수한 채팅 로그가 생성되는 인터넷 방송에 자리를 잡게 되고, 버튜버가 되어 치지직에서 데뷔를 하면 더 많은 로그를 먹을 수 있다는 생각에 하월학원에 입학하게 된다.</div>",
+                storyHTML: "<div class='showNoMobile'><p>너구리 섬에서 배민을 켰는데 '텅'이 뜨는 걸 보고 상경했다.</p><p>그러나 배달이 편해지자 매일 시켜 먹는 게임 폐인이 되어버리고</p><p>돈이 부족해진 바람에 숙식을 해결해주는 브이레코드에 입학하게 되었다.</p></div><div class='showOnlyMobile'>너구리 섬에서 배민을 켰는데 '텅'이 뜨는 걸 보고 상경했다. 그러나 배달이 편해지자 매일 시켜 먹는 게임 폐인이 되어버리고 돈이 부족해진 바람에 숙식을 해결해주는 브이레코드에 입학하게 되었다.</div>",
                 url_youtube: "https://www.youtube.com/@vrecord_siio",
                 url_twitter: "https://x.com/vrecord_siio",
                 url_twitch:  "https://ch.sooplive.co.kr/siioyeyo"
