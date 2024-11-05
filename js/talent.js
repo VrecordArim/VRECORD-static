@@ -7,6 +7,7 @@ function switchTalent(id, scrollIntoView = true) {
     contracts.children[0].href = data.url_youtube;
     contracts.children[1].href = data.url_twitter;
     contracts.children[2].href = data.url_twitch;
+    updatePlatformIcon(data.url_twitch);
 
     updateTalentHighlight(id);
     if (scrollIntoView== true)
@@ -200,4 +201,14 @@ function updateTalentHighlight(selectedId) {
 
 function scrollIntoTalentView() {
     document.getElementById("talent-container").scrollIntoView({behavior: "auto"});
+}
+
+function updatePlatformIcon(url) {
+    var imgElement = document.getElementById("platformIcon");
+    
+    if (url.includes("sooplive")) {
+        imgElement.src = "./image/icon_soop.png";
+    } else {
+        imgElement.src = "./image/icon_twitch.png";
+    }
 }
