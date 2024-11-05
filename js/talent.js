@@ -31,7 +31,7 @@ function getTalentData(id) {
                 storyHTML: "<div class='showNoMobile'><p>어릴 적 자신을 구해주고 나침반을 맡긴 이를 찾아 떠도는 코요테 수인.</p><p>매사에 긍정적이고 잘 웃는 편이지만, 어째서인지 주변에서 사건 사고가 끊이지를 않는다.</p><p>운동을 싫어하고 낮잠을 즐긴다. 대부분 멍하니 앉아 있다가 생기는 문제들이 많다.</p></div><div class='showOnlyMobile'>어릴 적 자신을 구해주고 나침반을 맡긴 이를 찾아 떠도는 코요테 수인. 매사에 긍정적이고 잘 웃는 편이지만, 어째서인지 주변에서 사건 사고가 끊이지를 않는다. 운동을 싫어하고 낮잠을 즐긴다. 대부분 멍하니 앉아 있다가 생기는 문제들이 많다.</div>",
                 url_youtube: "https://www.youtube.com/channel/UCtD8lp3h303iLyIJZ9c2lYA",
                 url_twitter: "https://twitter.com/vrecord_yunon",
-                url_twitch: "https://chzzk.naver.com/575b8dd00630a025c9ad3729df908abf",
+                url_twitch: "https://ch.sooplive.co.kr/vrecordyunon",
             };
         /*
         case 1:
@@ -119,8 +119,9 @@ function getTalentData(id) {
                 storyHTML: "<div class='showNoMobile'><p>뒷골목의 헤갱단을 이끄는 사슴 수인의 대장. 하지만 어째서인지 다른 이들에게 사슴이 아니라는 오해를 사게 되었다.</p><p>본인이 사슴임을 알리기 위한 방법을 모색 중, ‘학교’라는 곳에는 많은 인간이 모인다는 걸 알게 된다.</p><p>학교의 모든 이들을 조직에 입단시키기 위해 하월학원에 입학하게 된다.</p></div><div class='showOnlyMobile'>뒷골목의 헤갱단을 이끄는 사슴 수인의 대장. 하지만 어째서인지 다른 이들에게 사슴이 아니라는 오해를 사게 되었다. 본인이 사슴임을 알리기 위한 방법을 모색 중, ‘학교’라는 곳에는 많은 인간이 모인다는 걸 알게 된다. 학교의 모든 이들을 조직에 입단시키기 위해 하월학원에 입학하게 된다.</div>",
                 url_youtube: "https://www.youtube.com/c/HessofficialX3",
                 url_twitter: "https://twitter.com/vrecord_Hess",
-                url_twitch:  "https://chzzk.naver.com/ca550a5a44db8e6cb67d3e2cefc16afb"
+                url_twitch:  "https://ch.sooplive.co.kr/utahessx33"
             };
+            /*
         case 7:
             return {
                 name: "뮬",
@@ -129,21 +130,54 @@ function getTalentData(id) {
                 url_twitter: "https://twitter.com/Sing_Myu",
                 url_twitch:  "https://chzzk.naver.com/6b2e39072f3af6e84ee04d34aa164e57"
             };
-        case 8:
+            */
+        case 7:
             return {
                 name: "리리스",
                 storyHTML: "<div class='showNoMobile'><p>과거 마녀사냥으로 인해 죽을 뻔했던 인간.</p><p>도망치던 중, 자신을 스토킹하던 작은 흑염룡과 계약을 해 불로불사가 된다.</p><p>무료한 삶을 이어가던 중, 마녀도 받아주는 특이한 학교가 있다고 해 입학하게 된다.</p></div><div class='showOnlyMobile'>과거 마녀사냥으로 인해 죽을 뻔했던 인간. 도망치던 중, 자신을 스토킹하던 작은 흑염룡과 계약을 해 불로불사가 된다. 무료한 삶을 이어가던 중, 마녀도 받아주는 특이한 학교가 있다고 해 입학하게 된다.</div>",
                 url_youtube: "https://www.youtube.com/@vrecord_lilith",
                 url_twitter: "https://twitter.com/vrecord_lilith",
-                url_twitch:  "https://chzzk.naver.com/ca45c56f2e4bf7a9c4b6735677a5fefa"
+                url_twitch:  "https://ch.sooplive.co.kr/lilith1211"
             };
-        case 9:
+        case 8:
             return {
                 name: "타루",
                 storyHTML: "<div class='showNoMobile'><p>디지털 세계에 쌓인 로그 사이에서 태어난 고양이.</p><p>먹잇감을 쫓다 무수한 채팅 로그가 생성되는 인터넷 방송에 자리를 잡게 되고,</p><p>버튜버가 되어 치지직에서 데뷔를 하면 더 많은 로그를 먹을 수 있다는 생각에 하월학원에 입학하게 된다.</p></div><div class='showOnlyMobile'>디지털 세계에 쌓인 로그 사이에서 태어난 고양이. 먹잇감을 쫓다 무수한 채팅 로그가 생성되는 인터넷 방송에 자리를 잡게 되고, 버튜버가 되어 치지직에서 데뷔를 하면 더 많은 로그를 먹을 수 있다는 생각에 하월학원에 입학하게 된다.</div>",
                 url_youtube: "https://www.youtube.com/@vrecord_taru",
                 url_twitter: "https://twitter.com/vrecord_taru",
-                url_twitch:  "https://chzzk.naver.com/2b7010767bb282ba636b157b3c06937a"
+                url_twitch:  "https://ch.sooplive.co.kr/tarusama"
+            };
+        case 9:
+            return {
+                name: "달리",
+                storyHTML: "<div class='showNoMobile'><p>디지털 세계에 쌓인 로그 사이에서 태어난 고양이.</p><p>먹잇감을 쫓다 무수한 채팅 로그가 생성되는 인터넷 방송에 자리를 잡게 되고,</p><p>버튜버가 되어 치지직에서 데뷔를 하면 더 많은 로그를 먹을 수 있다는 생각에 하월학원에 입학하게 된다.</p></div><div class='showOnlyMobile'>디지털 세계에 쌓인 로그 사이에서 태어난 고양이. 먹잇감을 쫓다 무수한 채팅 로그가 생성되는 인터넷 방송에 자리를 잡게 되고, 버튜버가 되어 치지직에서 데뷔를 하면 더 많은 로그를 먹을 수 있다는 생각에 하월학원에 입학하게 된다.</div>",
+                url_youtube: "https://www.youtube.com/@vrecord_darli",
+                url_twitter: "https://x.com/vrecord_darli",
+                url_twitch:  "https://ch.sooplive.co.kr/darlida"
+            };
+        case 10:
+            return {
+                name: "하리",
+                storyHTML: "<div class='showNoMobile'><p>디지털 세계에 쌓인 로그 사이에서 태어난 고양이.</p><p>먹잇감을 쫓다 무수한 채팅 로그가 생성되는 인터넷 방송에 자리를 잡게 되고,</p><p>버튜버가 되어 치지직에서 데뷔를 하면 더 많은 로그를 먹을 수 있다는 생각에 하월학원에 입학하게 된다.</p></div><div class='showOnlyMobile'>디지털 세계에 쌓인 로그 사이에서 태어난 고양이. 먹잇감을 쫓다 무수한 채팅 로그가 생성되는 인터넷 방송에 자리를 잡게 되고, 버튜버가 되어 치지직에서 데뷔를 하면 더 많은 로그를 먹을 수 있다는 생각에 하월학원에 입학하게 된다.</div>",
+                url_youtube: "https://www.youtube.com/@vrecord_hari",
+                url_twitter: "https://x.com/vrecord_hari",
+                url_twitch:  "https://ch.sooplive.co.kr/harivrecord"
+            };
+        case 11:
+            return {
+                name: "사인",
+                storyHTML: "<div class='showNoMobile'><p>디지털 세계에 쌓인 로그 사이에서 태어난 고양이.</p><p>먹잇감을 쫓다 무수한 채팅 로그가 생성되는 인터넷 방송에 자리를 잡게 되고,</p><p>버튜버가 되어 치지직에서 데뷔를 하면 더 많은 로그를 먹을 수 있다는 생각에 하월학원에 입학하게 된다.</p></div><div class='showOnlyMobile'>디지털 세계에 쌓인 로그 사이에서 태어난 고양이. 먹잇감을 쫓다 무수한 채팅 로그가 생성되는 인터넷 방송에 자리를 잡게 되고, 버튜버가 되어 치지직에서 데뷔를 하면 더 많은 로그를 먹을 수 있다는 생각에 하월학원에 입학하게 된다.</div>",
+                url_youtube: "https://www.youtube.com/@vrecordsign",
+                url_twitter: "https://x.com/vrecord_sign",
+                url_twitch:  "https://ch.sooplive.co.kr/vrecordsign"
+            };
+        case 12:
+            return {
+                name: "시오",
+                storyHTML: "<div class='showNoMobile'><p>디지털 세계에 쌓인 로그 사이에서 태어난 고양이.</p><p>먹잇감을 쫓다 무수한 채팅 로그가 생성되는 인터넷 방송에 자리를 잡게 되고,</p><p>버튜버가 되어 치지직에서 데뷔를 하면 더 많은 로그를 먹을 수 있다는 생각에 하월학원에 입학하게 된다.</p></div><div class='showOnlyMobile'>디지털 세계에 쌓인 로그 사이에서 태어난 고양이. 먹잇감을 쫓다 무수한 채팅 로그가 생성되는 인터넷 방송에 자리를 잡게 되고, 버튜버가 되어 치지직에서 데뷔를 하면 더 많은 로그를 먹을 수 있다는 생각에 하월학원에 입학하게 된다.</div>",
+                url_youtube: "https://www.youtube.com/@vrecord_siio",
+                url_twitter: "https://x.com/vrecord_siio",
+                url_twitch:  "https://ch.sooplive.co.kr/siioyeyo"
             };
     }
 }
