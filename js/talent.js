@@ -16,7 +16,6 @@ function switchTalent(id, scrollIntoView = true) {
 
 function getTalentData(id) {
     switch (id) {
-        /*
         case 0:
             return {
                 name: "아스트 더 데우스",
@@ -25,8 +24,7 @@ function getTalentData(id) {
                 url_twitter: "https://twitter.com/vrecord_deus",
                 url_twitch: "https://www.twitch.tv/vrecord_deus"
             };
-        */
-        case 0:
+        case 1:
             return {
                 name: "아지가타 유논",
                 storyHTML: "<div class='showNoMobile'><p>어릴 적 자신을 구해주고 나침반을 맡긴 이를 찾아 떠도는 코요테 수인.</p><p>매사에 긍정적이고 잘 웃는 편이지만, 어째서인지 주변에서 사건 사고가 끊이지를 않는다.</p><p>운동을 싫어하고 낮잠을 즐긴다. 대부분 멍하니 앉아 있다가 생기는 문제들이 많다.</p></div><div class='showOnlyMobile'>어릴 적 자신을 구해주고 나침반을 맡긴 이를 찾아 떠도는 코요테 수인. 매사에 긍정적이고 잘 웃는 편이지만, 어째서인지 주변에서 사건 사고가 끊이지를 않는다. 운동을 싫어하고 낮잠을 즐긴다. 대부분 멍하니 앉아 있다가 생기는 문제들이 많다.</div>",
@@ -74,7 +72,7 @@ function getTalentData(id) {
                 url_twitch: "https://www.twitch.tv/vrecord_merry",
             };
             */
-        case 1:
+        case 2:
             return {
                 name: "루시드",
                 storyHTML: "<div class='showNoMobile'><p>신의 어머니와 인간인 아버지 사이에 태어난 반신 반인 루시드.</p><p>어머니는 신의 업무를 하며 자신은 거의 아버지 손에 자라게 되었고,</p><p>오랜 기간 인간으로서 살게 되어 자신의 신적 능력을 인간을 이롭게 하는데 쓰고자 입학했다.</p></div><div class='showOnlyMobile'>신의 어머니와 인간인 아버지 사이에 태어난 반신 반인 루시드. 어머니는 신의 업무를 하며 자신은 거의 아버지 손에 자라게 되었고, 오랜 기간 인간으로서 살게 되어 자신의 신적 능력을 인간을 이롭게 하는데 쓰고자 입학했다.</div>",
@@ -92,6 +90,7 @@ function getTalentData(id) {
                 url_twitch:  "https://chzzk.naver.com/17771d4b289c8c555a30a61de5679033"
             };
             */
+            /*
         case 2:
             return {
                 name: "차가운",
@@ -100,6 +99,7 @@ function getTalentData(id) {
                 url_twitter: "https://twitter.com/vrecord_gawoon",
                 url_twitch:  "https://chzzk.naver.com/0a1aef49164865b71039a79b7cc32da5"
             };
+            */
         // case 4:
             // return {
                 // name: "다비",
@@ -108,6 +108,7 @@ function getTalentData(id) {
                 // url_twitter: "https://twitter.com/vrecord_davi",
                 // url_twitch:  "https://chzzk.naver.com/230384dde00b04200f1f7afc711dd7ad"
             // };
+            /*
         case 3:
             return {
                 name: "천휘",
@@ -116,7 +117,8 @@ function getTalentData(id) {
                 url_twitter: "https://twitter.com/vrecord_chunma",
                 url_twitch:  "https://chzzk.naver.com/c20ff005595d0f0ecba6b92712dcdd8d"
             };
-        case 4:
+            */
+        case 3:
             return {
                 name: "헤스",
                 storyHTML: "<div class='showNoMobile'><p>뒷골목의 헤갱단을 이끄는 사슴 수인의 대장. 하지만 어째서인지 다른 이들에게 사슴이 아니라는 오해를 사게 되었다.</p><p>본인이 사슴임을 알리기 위한 방법을 모색 중, ‘학교’라는 곳에는 많은 인간이 모인다는 걸 알게 된다.</p><p>학교의 모든 이들을 조직에 입단시키기 위해 하월학원에 입학하게 된다.</p></div><div class='showOnlyMobile'>뒷골목의 헤갱단을 이끄는 사슴 수인의 대장. 하지만 어째서인지 다른 이들에게 사슴이 아니라는 오해를 사게 되었다. 본인이 사슴임을 알리기 위한 방법을 모색 중, ‘학교’라는 곳에는 많은 인간이 모인다는 걸 알게 된다. 학교의 모든 이들을 조직에 입단시키기 위해 하월학원에 입학하게 된다.</div>",
@@ -134,7 +136,7 @@ function getTalentData(id) {
                 url_twitch:  "https://chzzk.naver.com/6b2e39072f3af6e84ee04d34aa164e57"
             };
             */
-        case 5:
+        case 4:
             return {
                 name: "리리스",
                 storyHTML: "<div class='showNoMobile'><p>과거 마녀사냥으로 인해 죽을 뻔했던 인간.</p><p>도망치던 중, 자신을 스토킹하던 작은 흑염룡과 계약을 해 불로불사가 된다.</p><p>무료한 삶을 이어가던 중, 마녀도 받아주는 특이한 학교가 있다고 해 입학하게 된다.</p></div><div class='showOnlyMobile'>과거 마녀사냥으로 인해 죽을 뻔했던 인간. 도망치던 중, 자신을 스토킹하던 작은 흑염룡과 계약을 해 불로불사가 된다. 무료한 삶을 이어가던 중, 마녀도 받아주는 특이한 학교가 있다고 해 입학하게 된다.</div>",
@@ -142,7 +144,7 @@ function getTalentData(id) {
                 url_twitter: "https://twitter.com/vrecord_lilith",
                 url_twitch:  "https://ch.sooplive.co.kr/lilith1211"
             };
-        case 6:
+        case 5:
             return {
                 name: "타루",
                 storyHTML: "<div class='showNoMobile'><p>디지털 세계에 쌓인 로그 사이에서 태어난 고양이.</p><p>먹잇감을 쫓다 무수한 채팅 로그가 생성되는 인터넷 방송에 자리를 잡게 되고,</p><p>버튜버가 되어 데뷔를 하면 더 많은 로그를 먹을 수 있다는 생각에 하월학원에 입학하게 된다.</p></div><div class='showOnlyMobile'>디지털 세계에 쌓인 로그 사이에서 태어난 고양이. 먹잇감을 쫓다 무수한 채팅 로그가 생성되는 인터넷 방송에 자리를 잡게 되고, 버튜버가 되어 치지직에서 데뷔를 하면 더 많은 로그를 먹을 수 있다는 생각에 하월학원에 입학하게 된다.</div>",
@@ -150,7 +152,7 @@ function getTalentData(id) {
                 url_twitter: "https://twitter.com/vrecord_taru",
                 url_twitch:  "https://ch.sooplive.co.kr/tarusama"
             };
-        case 7:
+        case 6:
             return {
                 name: "달리",
                 storyHTML: "<div class='showNoMobile'><p>달나라의 메이드 카페에서 일하던 소수 민족.</p><p>음악을 사랑하여 다양한 악기를 다루고 싶어</p><p>핑크문이 뜨던 날 지구로 내려와 브이레코드에 입학했다.</p></div><div class='showOnlyMobile'>달나라의 메이드 카페에서 일하던 소수 민족. 음악을 사랑하여 다양한 악기를 다루고 싶어 핑크문이 뜨던 날 지구로 내려와 브이레코드에 입학했다.</div>",
@@ -158,7 +160,7 @@ function getTalentData(id) {
                 url_twitter: "https://x.com/vrecord_darli",
                 url_twitch:  "https://ch.sooplive.co.kr/darlida"
             };
-        case 8:
+        case 7:
             return {
                 name: "하리",
                 storyHTML: "<div class='showNoMobile'><p>길을 가다 바닥에 떨어진 브이레코드 전단지를 줍게 되고,</p><p>다른 내용은 하나도 이해하지 못했으나,</p><p>맛있는 디저트 제공이라는 문구에 이끌려 입학하게 되었다.</p></div><div class='showOnlyMobile'>길을 가다 바닥에 떨어진 브이레코드 전단지를 줍게 되고, 다른 내용은 하나도 이해하지 못했으나, 맛있는 디저트 제공이라는 문구에 이끌려 입학하게 되었다.</div>",
@@ -166,7 +168,7 @@ function getTalentData(id) {
                 url_twitter: "https://x.com/vrecord_hari",
                 url_twitch:  "https://ch.sooplive.co.kr/harivrecord"
             };
-        case 9:
+        case 8:
             return {
                 name: "사인",
                 storyHTML: "<div class='showNoMobile'><p>브이레코드의 비밀에 대해 조사 의뢰가 들어와 입학하게 되었다.</p><p>증거를 잡기 위해 모든 멤버들의 일거수일투족을 기록한다.</p><p></p></div><div class='showOnlyMobile'>브이레코드의 비밀에 대해 조사 의뢰가 들어와 입학하게 되었다. 증거를 잡기 위해 모든 멤버들의 일거수일투족을 기록한다.</div>",
@@ -174,7 +176,7 @@ function getTalentData(id) {
                 url_twitter: "https://x.com/vrecord_sign",
                 url_twitch:  "https://ch.sooplive.co.kr/vrecordsign"
             };
-        case 10:
+        case 9:
             return {
                 name: "시오",
                 storyHTML: "<div class='showNoMobile'><p>너구리 섬에서 배민을 켰는데 '텅'이 뜨는 걸 보고 상경했다.</p><p>그러나 배달이 편해지자 매일 시켜 먹는 게임 폐인이 되어버리고</p><p>돈이 부족해진 바람에 숙식을 해결해주는 브이레코드에 입학하게 되었다.</p></div><div class='showOnlyMobile'>너구리 섬에서 배민을 켰는데 '텅'이 뜨는 걸 보고 상경했다. 그러나 배달이 편해지자 매일 시켜 먹는 게임 폐인이 되어버리고 돈이 부족해진 바람에 숙식을 해결해주는 브이레코드에 입학하게 되었다.</div>",
