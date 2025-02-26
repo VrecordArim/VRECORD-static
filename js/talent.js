@@ -22,7 +22,7 @@ function getTalentData(id) {
                 storyHTML: "<div class='showNoMobile'><p>데이터들의 생성과 소멸이 반복하며 탄생한 아스트랄의 상상 속</p><p>최강의 생명체인 드래곤. 예상과는 달리 독립체로써 탄생한 데우스는 아스트랄을 흡수하고</p><p>떠돌다 자신을 찾기 위해서 브이레코드에 입학하게 된다.</p></div><div class='showOnlyMobile'>데이터들의 생성과 소멸이 반복하며 탄생한 아스트랄의 상상 속 최강의 생명체인 드래곤. 예상과는 달리 독립체로써 탄생한 데우스는 아스트랄을 흡수하고 떠돌다 자신을 찾기 위해서 브이레코드에 입학하게 된다.</div>",
                 url_youtube: "https://www.youtube.com/channel/UC8QeHScawb-0VWS8iudrVfg",
                 url_twitter: "https://twitter.com/vrecord_deus",
-                url_twitch: "https://www.twitch.tv/vrecord_deus"
+                url_twitch: "https://chzzk.naver.com/4dc11ee5637bbf04d5bb52917bb6c41a"
             };
         case 1:
             return {
