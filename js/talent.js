@@ -118,14 +118,14 @@ function getTalentData(id) {
                 url_twitch:  "https://chzzk.naver.com/c20ff005595d0f0ecba6b92712dcdd8d"
             };
             */
-        case 3:
-            return {
-                name: "헤스",
-                storyHTML: "<div class='showNoMobile'><p>뒷골목의 헤갱단을 이끄는 사슴 수인의 대장. 하지만 어째서인지 다른 이들에게 사슴이 아니라는 오해를 사게 되었다.</p><p>본인이 사슴임을 알리기 위한 방법을 모색 중, ‘학교’라는 곳에는 많은 인간이 모인다는 걸 알게 된다.</p><p>학교의 모든 이들을 조직에 입단시키기 위해 하월학원에 입학하게 된다.</p></div><div class='showOnlyMobile'>뒷골목의 헤갱단을 이끄는 사슴 수인의 대장. 하지만 어째서인지 다른 이들에게 사슴이 아니라는 오해를 사게 되었다. 본인이 사슴임을 알리기 위한 방법을 모색 중, ‘학교’라는 곳에는 많은 인간이 모인다는 걸 알게 된다. 학교의 모든 이들을 조직에 입단시키기 위해 하월학원에 입학하게 된다.</div>",
-                url_youtube: "https://www.youtube.com/c/HessofficialX3",
-                url_twitter: "https://twitter.com/vrecord_Hess",
-                url_twitch:  "https://ch.sooplive.co.kr/utahessx33"
-            };
+        // case 3:
+        //     return {
+        //         name: "헤스",
+        //         storyHTML: "<div class='showNoMobile'><p>뒷골목의 헤갱단을 이끄는 사슴 수인의 대장. 하지만 어째서인지 다른 이들에게 사슴이 아니라는 오해를 사게 되었다.</p><p>본인이 사슴임을 알리기 위한 방법을 모색 중, ‘학교’라는 곳에는 많은 인간이 모인다는 걸 알게 된다.</p><p>학교의 모든 이들을 조직에 입단시키기 위해 하월학원에 입학하게 된다.</p></div><div class='showOnlyMobile'>뒷골목의 헤갱단을 이끄는 사슴 수인의 대장. 하지만 어째서인지 다른 이들에게 사슴이 아니라는 오해를 사게 되었다. 본인이 사슴임을 알리기 위한 방법을 모색 중, ‘학교’라는 곳에는 많은 인간이 모인다는 걸 알게 된다. 학교의 모든 이들을 조직에 입단시키기 위해 하월학원에 입학하게 된다.</div>",
+        //         url_youtube: "https://www.youtube.com/c/HessofficialX3",
+        //         url_twitter: "https://twitter.com/vrecord_Hess",
+        //         url_twitch:  "https://ch.sooplive.co.kr/utahessx33"
+        //     };
             /*
         case 7:
             return {
@@ -136,15 +136,15 @@ function getTalentData(id) {
                 url_twitch:  "https://chzzk.naver.com/6b2e39072f3af6e84ee04d34aa164e57"
             };
             */
-        case 4:
-            return {
-                name: "리리스",
-                storyHTML: "<div class='showNoMobile'><p>과거 마녀사냥으로 인해 죽을 뻔했던 인간.</p><p>도망치던 중, 자신을 스토킹하던 작은 흑염룡과 계약을 해 불로불사가 된다.</p><p>무료한 삶을 이어가던 중, 마녀도 받아주는 특이한 학교가 있다고 해 입학하게 된다.</p></div><div class='showOnlyMobile'>과거 마녀사냥으로 인해 죽을 뻔했던 인간. 도망치던 중, 자신을 스토킹하던 작은 흑염룡과 계약을 해 불로불사가 된다. 무료한 삶을 이어가던 중, 마녀도 받아주는 특이한 학교가 있다고 해 입학하게 된다.</div>",
-                url_youtube: "https://www.youtube.com/@vrecord_lilith",
-                url_twitter: "https://twitter.com/vrecord_lilith",
-                url_twitch:  "https://ch.sooplive.co.kr/lilith1211"
-            };
-        case 5:
+        // case 4:
+        //     return {
+        //         name: "리리스",
+        //         storyHTML: "<div class='showNoMobile'><p>과거 마녀사냥으로 인해 죽을 뻔했던 인간.</p><p>도망치던 중, 자신을 스토킹하던 작은 흑염룡과 계약을 해 불로불사가 된다.</p><p>무료한 삶을 이어가던 중, 마녀도 받아주는 특이한 학교가 있다고 해 입학하게 된다.</p></div><div class='showOnlyMobile'>과거 마녀사냥으로 인해 죽을 뻔했던 인간. 도망치던 중, 자신을 스토킹하던 작은 흑염룡과 계약을 해 불로불사가 된다. 무료한 삶을 이어가던 중, 마녀도 받아주는 특이한 학교가 있다고 해 입학하게 된다.</div>",
+        //         url_youtube: "https://www.youtube.com/@vrecord_lilith",
+        //         url_twitter: "https://twitter.com/vrecord_lilith",
+        //         url_twitch:  "https://ch.sooplive.co.kr/lilith1211"
+        //     };
+        case 3:
             return {
                 name: "타루",
                 storyHTML: "<div class='showNoMobile'><p>디지털 세계에 쌓인 로그 사이에서 태어난 고양이.</p><p>먹잇감을 쫓다 무수한 채팅 로그가 생성되는 인터넷 방송에 자리를 잡게 되고,</p><p>버튜버가 되어 데뷔를 하면 더 많은 로그를 먹을 수 있다는 생각에 하월학원에 입학하게 된다.</p></div><div class='showOnlyMobile'>디지털 세계에 쌓인 로그 사이에서 태어난 고양이. 먹잇감을 쫓다 무수한 채팅 로그가 생성되는 인터넷 방송에 자리를 잡게 되고, 버튜버가 되어 치지직에서 데뷔를 하면 더 많은 로그를 먹을 수 있다는 생각에 하월학원에 입학하게 된다.</div>",
@@ -152,7 +152,7 @@ function getTalentData(id) {
                 url_twitter: "https://twitter.com/vrecord_taru",
                 url_twitch:  "https://ch.sooplive.co.kr/tarusama"
             };
-        case 6:
+        case 4:
             return {
                 name: "달리",
                 storyHTML: "<div class='showNoMobile'><p>달나라의 메이드 카페에서 일하던 소수 민족.</p><p>음악을 사랑하여 다양한 악기를 다루고 싶어</p><p>핑크문이 뜨던 날 지구로 내려와 브이레코드에 입학했다.</p></div><div class='showOnlyMobile'>달나라의 메이드 카페에서 일하던 소수 민족. 음악을 사랑하여 다양한 악기를 다루고 싶어 핑크문이 뜨던 날 지구로 내려와 브이레코드에 입학했다.</div>",
@@ -160,7 +160,7 @@ function getTalentData(id) {
                 url_twitter: "https://x.com/vrecord_darli",
                 url_twitch:  "https://ch.sooplive.co.kr/darlida"
             };
-        case 7:
+        case 5:
             return {
                 name: "하리",
                 storyHTML: "<div class='showNoMobile'><p>길을 가다 바닥에 떨어진 브이레코드 전단지를 줍게 되고,</p><p>다른 내용은 하나도 이해하지 못했으나,</p><p>맛있는 디저트 제공이라는 문구에 이끌려 입학하게 되었다.</p></div><div class='showOnlyMobile'>길을 가다 바닥에 떨어진 브이레코드 전단지를 줍게 되고, 다른 내용은 하나도 이해하지 못했으나, 맛있는 디저트 제공이라는 문구에 이끌려 입학하게 되었다.</div>",
@@ -168,7 +168,7 @@ function getTalentData(id) {
                 url_twitter: "https://x.com/vrecord_hari",
                 url_twitch:  "https://ch.sooplive.co.kr/harivrecord"
             };
-        case 8:
+        case 6:
             return {
                 name: "사인",
                 storyHTML: "<div class='showNoMobile'><p>브이레코드의 비밀에 대해 조사 의뢰가 들어와 입학하게 되었다.</p><p>증거를 잡기 위해 모든 멤버들의 일거수일투족을 기록한다.</p><p></p></div><div class='showOnlyMobile'>브이레코드의 비밀에 대해 조사 의뢰가 들어와 입학하게 되었다. 증거를 잡기 위해 모든 멤버들의 일거수일투족을 기록한다.</div>",
@@ -176,13 +176,45 @@ function getTalentData(id) {
                 url_twitter: "https://x.com/vrecord_sign",
                 url_twitch:  "https://ch.sooplive.co.kr/vrecordsign"
             };
-        case 9:
+        case 7:
             return {
                 name: "시오",
                 storyHTML: "<div class='showNoMobile'><p>너구리 섬에서 배민을 켰는데 '텅'이 뜨는 걸 보고 상경했다.</p><p>그러나 배달이 편해지자 매일 시켜 먹는 게임 폐인이 되어버리고</p><p>돈이 부족해진 바람에 숙식을 해결해주는 브이레코드에 입학하게 되었다.</p></div><div class='showOnlyMobile'>너구리 섬에서 배민을 켰는데 '텅'이 뜨는 걸 보고 상경했다. 그러나 배달이 편해지자 매일 시켜 먹는 게임 폐인이 되어버리고 돈이 부족해진 바람에 숙식을 해결해주는 브이레코드에 입학하게 되었다.</div>",
                 url_youtube: "https://www.youtube.com/@vrecord_siio",
                 url_twitter: "https://x.com/vrecord_siio",
                 url_twitch:  "https://ch.sooplive.co.kr/siioyeyo"
+            };
+		case 8:
+            return {
+                name: "이나",
+                storyHTML: "<div class='showNoMobile'><p>잊혀지면 사라지는 북극여우 수호신 이나,</p><p>오로라 정령 오정이와 함께 자신을 알리기 위한 여정을 시작한다.</p><p>그러다가 게임의 매력에 빠져 브이레코드에 입학하게 되는데..</p></div><div class='showOnlyMobile'>잊혀지면 사라지는 북극여우 수호신 이나, 오로라 정령 오정이와 함께 자신을 알리기 위한 여정을 시작한다. 그러다가 게임의 매력에 빠져 브이레코드에 입학하게 되는데..</div>",
+                url_youtube: "https://www.youtube.com/@vrecord_siio",
+                url_twitter: "https://x.com/vrecord_siio",
+                url_twitch:  "https://chzzk.naver.com/4dc11ee5637bbf04d5bb52917bb6c41a"
+            };
+		case 9:
+            return {
+                name: "루아",
+                storyHTML: "<div class='showNoMobile'><p>파란색을 좋아하는 평범한 회사원 루아,</p><p>하지만 집에 돌아오면 공포를 사랑하는 메이드로 변신?</p><p>많은 이들에게 공포의 매력을 알려주기 위해 브이레코드에 입학하게 된다.</p></div><div class='showOnlyMobile'>파란색을 좋아하는 평범한 회사원 루아, 하지만 집에 돌아오면 공포를 사랑하는 메이드로 변신? 많은 이들에게 공포의 매력을 알려주기 위해 브이레코드에 입학하게 된다.</div>",
+                url_youtube: "https://www.youtube.com/@vrecord_siio",
+                url_twitter: "https://x.com/vrecord_siio",
+                url_twitch:  "https://chzzk.naver.com/4dc11ee5637bbf04d5bb52917bb6c41a"
+            };
+		case 10:
+            return {
+                name: "모노",
+                storyHTML: "<div class='showNoMobile'><p>집콕을 좋아하는 동굴곰 모노,</p><p>천년의 긴 겨울잠 끝에 일어나보니 모든게 바뀌어 슬픈 마음에 노래를 부른다.</p><p>노랫소리는 동굴 밖까지 유명해졌고, 이 소식을 들은 브이레코드가 입학 추천을 하게되는데...</div><div class='showOnlyMobile'>집콕을 좋아하는 동굴곰 모노,천년의 긴 겨울잠 끝에 일어나보니 모든게 바뀌어 슬픈 마음에 노래를 부른다.노랫소리는 동굴 밖까지 유명해졌고, 이 소식을 들은 브이레코드가 입학 추천을 하게되는데...</div>",
+                url_youtube: "https://www.youtube.com/@vrecord_siio",
+                url_twitter: "https://x.com/vrecord_siio",
+                url_twitch:  "https://chzzk.naver.com/4dc11ee5637bbf04d5bb52917bb6c41a"
+            };
+		case 11:
+            return {
+                name: "머피",
+                storyHTML: "<div class='showNoMobile'><p>세상의 이야기와 감정을 수집하고 전달하는 이야기의 요정 머피는 덜렁대는 성격 탓에 잦은 실수를 저지른다.</p><p>결국 일터에서 해고당한 머피는 상심하던 중 브이레코드에 관한 문구를 읽게된다.</p><p>그렇게 머피는 자신만의 이야기를 시작하기 위해 브이레코드에 입학하게 된다.</p></div><div class='showOnlyMobile'>세상의 이야기와 감정을 수집하고 전달하는 이야기의 요정 머피는 덜렁대는 성격 탓에 잦은 실수를 저지른다. 결국 일터에서 해고당한 머피는 상심하던 중 브이레코드에 관한 문구를 읽게된다. 그렇게 머피는 자신만의 이야기를 시작하기 위해 브이레코드에 입학하게 된다.</div>",
+                url_youtube: "https://www.youtube.com/@vrecord_siio",
+                url_twitter: "https://x.com/vrecord_siio",
+                url_twitch:  "https://chzzk.naver.com/4dc11ee5637bbf04d5bb52917bb6c41a"
             };
     }
 }
