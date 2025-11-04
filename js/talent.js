@@ -188,33 +188,33 @@ function getTalentData(id) {
             return {
                 name: "이나",
                 storyHTML: "<div class='showNoMobile'><p>잊혀지면 사라지는 북극여우 수호신 이나,</p><p>오로라 정령 오정이와 함께 자신을 알리기 위한 여정을 시작한다.</p><p>그러다가 게임의 매력에 빠져 브이레코드에 입학하게 되는데..</p></div><div class='showOnlyMobile'>잊혀지면 사라지는 북극여우 수호신 이나, 오로라 정령 오정이와 함께 자신을 알리기 위한 여정을 시작한다. 그러다가 게임의 매력에 빠져 브이레코드에 입학하게 되는데..</div>",
-                url_youtube: "https://www.youtube.com/@vrecord_siio",
-                url_twitter: "https://x.com/vrecord_siio",
-                url_twitch:  "https://chzzk.naver.com/4dc11ee5637bbf04d5bb52917bb6c41a"
+                url_youtube: "https://www.youtube.com/@vrecord_ina",
+                url_twitter: "https://x.com/vrecord_ina",
+                url_twitch:  "https://chzzk.naver.com/5f2d1c732a8edbb83fe654291299eb09"
             };
 		case 9:
             return {
                 name: "루아",
                 storyHTML: "<div class='showNoMobile'><p>파란색을 좋아하는 평범한 회사원 루아,</p><p>하지만 집에 돌아오면 공포를 사랑하는 메이드로 변신?</p><p>많은 이들에게 공포의 매력을 알려주기 위해 브이레코드에 입학하게 된다.</p></div><div class='showOnlyMobile'>파란색을 좋아하는 평범한 회사원 루아, 하지만 집에 돌아오면 공포를 사랑하는 메이드로 변신? 많은 이들에게 공포의 매력을 알려주기 위해 브이레코드에 입학하게 된다.</div>",
-                url_youtube: "https://www.youtube.com/@vrecord_siio",
-                url_twitter: "https://x.com/vrecord_siio",
-                url_twitch:  "https://chzzk.naver.com/4dc11ee5637bbf04d5bb52917bb6c41a"
+                url_youtube: "https://www.youtube.com/@vrecord_rua",
+                url_twitter: "https://x.com/vrecord_rua",
+                url_twitch:  "https://chzzk.naver.com/c84df61388f2c2bb8afac273bfd4d90b"
             };
 		case 10:
             return {
                 name: "모노",
                 storyHTML: "<div class='showNoMobile'><p>집콕을 좋아하는 동굴곰 모노,</p><p>천년의 긴 겨울잠 끝에 일어나보니 모든게 바뀌어 슬픈 마음에 노래를 부른다.</p><p>노랫소리는 동굴 밖까지 유명해졌고, 이 소식을 들은 브이레코드가 입학 추천을 하게되는데...</div><div class='showOnlyMobile'>집콕을 좋아하는 동굴곰 모노,천년의 긴 겨울잠 끝에 일어나보니 모든게 바뀌어 슬픈 마음에 노래를 부른다.노랫소리는 동굴 밖까지 유명해졌고, 이 소식을 들은 브이레코드가 입학 추천을 하게되는데...</div>",
-                url_youtube: "https://www.youtube.com/@vrecord_siio",
-                url_twitter: "https://x.com/vrecord_siio",
-                url_twitch:  "https://chzzk.naver.com/4dc11ee5637bbf04d5bb52917bb6c41a"
+                url_youtube: "https://www.youtube.com/@vrecord_mono",
+                url_twitter: "https://x.com/vrecord_mono",
+                url_twitch:  "https://chzzk.naver.com/ff7099c82e23867a8a4b67d5bbcea466"
             };
 		case 11:
             return {
                 name: "머피",
                 storyHTML: "<div class='showNoMobile'><p>세상의 이야기와 감정을 수집하고 전달하는 이야기의 요정 머피는 덜렁대는 성격 탓에 잦은 실수를 저지른다.</p><p>결국 일터에서 해고당한 머피는 상심하던 중 브이레코드에 관한 문구를 읽게된다.</p><p>그렇게 머피는 자신만의 이야기를 시작하기 위해 브이레코드에 입학하게 된다.</p></div><div class='showOnlyMobile'>세상의 이야기와 감정을 수집하고 전달하는 이야기의 요정 머피는 덜렁대는 성격 탓에 잦은 실수를 저지른다. 결국 일터에서 해고당한 머피는 상심하던 중 브이레코드에 관한 문구를 읽게된다. 그렇게 머피는 자신만의 이야기를 시작하기 위해 브이레코드에 입학하게 된다.</div>",
-                url_youtube: "https://www.youtube.com/@vrecord_siio",
-                url_twitter: "https://x.com/vrecord_siio",
-                url_twitch:  "https://chzzk.naver.com/4dc11ee5637bbf04d5bb52917bb6c41a"
+                url_youtube: "https://www.youtube.com/@vrecord__murphy",
+                url_twitter: "https://x.com/vrecord_murphy",
+                url_twitch:  "https://chzzk.naver.com/8f99eb06d95ad8723673d8081a350417"
             };
     }
 }
