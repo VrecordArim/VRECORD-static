@@ -168,15 +168,15 @@ function getTalentData(id) {
                 url_twitter: "https://x.com/vrecord_hari",
                 url_twitch:  "https://ch.sooplive.co.kr/harivrecord"
             };
+        // case 6:
+        //     return {
+        //         name: "사인",
+        //         storyHTML: "<div class='showNoMobile'><p>브이레코드의 비밀에 대해 조사 의뢰가 들어와 입학하게 되었다.</p><p>증거를 잡기 위해 모든 멤버들의 일거수일투족을 기록한다.</p><p></p></div><div class='showOnlyMobile'>브이레코드의 비밀에 대해 조사 의뢰가 들어와 입학하게 되었다. 증거를 잡기 위해 모든 멤버들의 일거수일투족을 기록한다.</div>",
+        //         url_youtube: "https://www.youtube.com/@vrecordsign",
+        //         url_twitter: "https://x.com/vrecord_sign",
+        //         url_twitch:  "https://ch.sooplive.co.kr/vrecordsign"
+        //     };
         case 6:
-            return {
-                name: "사인",
-                storyHTML: "<div class='showNoMobile'><p>브이레코드의 비밀에 대해 조사 의뢰가 들어와 입학하게 되었다.</p><p>증거를 잡기 위해 모든 멤버들의 일거수일투족을 기록한다.</p><p></p></div><div class='showOnlyMobile'>브이레코드의 비밀에 대해 조사 의뢰가 들어와 입학하게 되었다. 증거를 잡기 위해 모든 멤버들의 일거수일투족을 기록한다.</div>",
-                url_youtube: "https://www.youtube.com/@vrecordsign",
-                url_twitter: "https://x.com/vrecord_sign",
-                url_twitch:  "https://ch.sooplive.co.kr/vrecordsign"
-            };
-        case 7:
             return {
                 name: "시오",
                 storyHTML: "<div class='showNoMobile'><p>너구리 섬에서 배민을 켰는데 '텅'이 뜨는 걸 보고 상경했다.</p><p>그러나 배달이 편해지자 매일 시켜 먹는 게임 폐인이 되어버리고</p><p>돈이 부족해진 바람에 숙식을 해결해주는 브이레코드에 입학하게 되었다.</p></div><div class='showOnlyMobile'>너구리 섬에서 배민을 켰는데 '텅'이 뜨는 걸 보고 상경했다. 그러나 배달이 편해지자 매일 시켜 먹는 게임 폐인이 되어버리고 돈이 부족해진 바람에 숙식을 해결해주는 브이레코드에 입학하게 되었다.</div>",
@@ -184,15 +184,15 @@ function getTalentData(id) {
                 url_twitter: "https://x.com/vrecord_siio",
                 url_twitch:  "https://ch.sooplive.co.kr/siioyeyo"
             };
-		case 8:
-            return {
-                name: "이나",
-                storyHTML: "<div class='showNoMobile'><p>잊혀지면 사라지는 북극여우 수호신 이나,</p><p>오로라 정령 오정이와 함께 자신을 알리기 위한 여정을 시작한다.</p><p>그러다가 게임의 매력에 빠져 브이레코드에 입학하게 되는데..</p></div><div class='showOnlyMobile'>잊혀지면 사라지는 북극여우 수호신 이나, 오로라 정령 오정이와 함께 자신을 알리기 위한 여정을 시작한다. 그러다가 게임의 매력에 빠져 브이레코드에 입학하게 되는데..</div>",
-                url_youtube: "https://www.youtube.com/@vrecord_ina",
-                url_twitter: "https://x.com/vrecord_ina",
-                url_twitch:  "https://chzzk.naver.com/5f2d1c732a8edbb83fe654291299eb09"
-            };
-		case 9:
+		// case 8:
+        //     return {
+        //         name: "이나",
+        //         storyHTML: "<div class='showNoMobile'><p>잊혀지면 사라지는 북극여우 수호신 이나,</p><p>오로라 정령 오정이와 함께 자신을 알리기 위한 여정을 시작한다.</p><p>그러다가 게임의 매력에 빠져 브이레코드에 입학하게 되는데..</p></div><div class='showOnlyMobile'>잊혀지면 사라지는 북극여우 수호신 이나, 오로라 정령 오정이와 함께 자신을 알리기 위한 여정을 시작한다. 그러다가 게임의 매력에 빠져 브이레코드에 입학하게 되는데..</div>",
+        //         url_youtube: "https://www.youtube.com/@vrecord_ina",
+        //         url_twitter: "https://x.com/vrecord_ina",
+        //         url_twitch:  "https://chzzk.naver.com/5f2d1c732a8edbb83fe654291299eb09"
+        //     };
+		case 7:
             return {
                 name: "루아",
                 storyHTML: "<div class='showNoMobile'><p>파란색을 좋아하는 평범한 회사원 루아,</p><p>하지만 집에 돌아오면 공포를 사랑하는 메이드로 변신?</p><p>많은 이들에게 공포의 매력을 알려주기 위해 브이레코드에 입학하게 된다.</p></div><div class='showOnlyMobile'>파란색을 좋아하는 평범한 회사원 루아, 하지만 집에 돌아오면 공포를 사랑하는 메이드로 변신? 많은 이들에게 공포의 매력을 알려주기 위해 브이레코드에 입학하게 된다.</div>",
@@ -200,7 +200,7 @@ function getTalentData(id) {
                 url_twitter: "https://x.com/vrecord_rua",
                 url_twitch:  "https://chzzk.naver.com/c84df61388f2c2bb8afac273bfd4d90b"
             };
-		case 10:
+		case 8:
             return {
                 name: "모노",
                 storyHTML: "<div class='showNoMobile'><p>집콕을 좋아하는 동굴곰 모노,</p><p>천년의 긴 겨울잠 끝에 일어나보니 모든게 바뀌어 슬픈 마음에 노래를 부른다.</p><p>노랫소리는 동굴 밖까지 유명해졌고, 이 소식을 들은 브이레코드가 입학 추천을 하게되는데...</div><div class='showOnlyMobile'>집콕을 좋아하는 동굴곰 모노,천년의 긴 겨울잠 끝에 일어나보니 모든게 바뀌어 슬픈 마음에 노래를 부른다.노랫소리는 동굴 밖까지 유명해졌고, 이 소식을 들은 브이레코드가 입학 추천을 하게되는데...</div>",
@@ -208,13 +208,29 @@ function getTalentData(id) {
                 url_twitter: "https://x.com/vrecord_mono",
                 url_twitch:  "https://chzzk.naver.com/ff7099c82e23867a8a4b67d5bbcea466"
             };
-		case 11:
+		case 9:
             return {
                 name: "머피",
                 storyHTML: "<div class='showNoMobile'><p>세상의 이야기와 감정을 수집하고 전달하는 이야기의 요정 머피는 덜렁대는 성격 탓에 잦은 실수를 저지른다.</p><p>결국 일터에서 해고당한 머피는 상심하던 중 브이레코드에 관한 문구를 읽게된다.</p><p>그렇게 머피는 자신만의 이야기를 시작하기 위해 브이레코드에 입학하게 된다.</p></div><div class='showOnlyMobile'>세상의 이야기와 감정을 수집하고 전달하는 이야기의 요정 머피는 덜렁대는 성격 탓에 잦은 실수를 저지른다. 결국 일터에서 해고당한 머피는 상심하던 중 브이레코드에 관한 문구를 읽게된다. 그렇게 머피는 자신만의 이야기를 시작하기 위해 브이레코드에 입학하게 된다.</div>",
                 url_youtube: "https://www.youtube.com/@vrecord__murphy",
                 url_twitter: "https://x.com/vrecord_murphy",
                 url_twitch:  "https://chzzk.naver.com/8f99eb06d95ad8723673d8081a350417"
+            };
+		case 10:
+            return {
+                name: "로드",
+                storyHTML: "<div class='showNoMobile'><p>어릴 적 「대부」를 보고 보스를 선망하게 된 마족 여자아이.</p><p>현재는 브이레코드 비허가 조직 세계정복동아리를 이끄는 수장이다.</p><p>악당을 꿈꾸지만 행동은 허술하고 정이 많은 편.</p></div><div class='showOnlyMobile'>세상의 이야기와 감정을 수집하고 전달하는 이야기의 요정 머피는 덜렁대는 성격 탓에 잦은 실수를 저지른다. 결국 일터에서 해고당한 머피는 상심하던 중 브이레코드에 관한 문구를 읽게된다. 그렇게 머피는 자신만의 이야기를 시작하기 위해 브이레코드에 입학하게 된다.</div>",
+                url_youtube: "https://www.youtube.com/@vrecord_looood",
+                url_twitter: "https://x.com/vrecord_looood",
+                url_twitch:  "https://chzzk.naver.com/0c177930bc3f79b69dd43b820ff606b8"
+            };
+		case 11:
+            return {
+                name: "마카",
+                storyHTML: "<div class='showNoMobile'><p>저승에서 말 타고 올라온 죽음의 신 아누비스.</p><p>현재는 브이레코드 비허가 조직 세계정복동아리의 행동 대장이다.</p><p>강경 육체파지만 정작 운동은 귀찮아한다.</p></div><div class='showOnlyMobile'>저승에서 말 타고 올라온 죽음의 신 아누비스. 현재는 브이레코드 비허가 조직 세계정복동아리의 행동 대장이다. 강경 육체파지만 정작 운동은 귀찮아한다.</div>",
+                url_youtube: "https://www.youtube.com/@vrecord_maca",
+                url_twitter: "https://x.com/vrecord_maca",
+                url_twitch:  "https://chzzk.naver.com/f88e567b0914272ce7afcb427cff322b/about"
             };
     }
 }
