@@ -2,12 +2,18 @@ function switchTalent(id, scrollIntoView = true) {
     var data = getTalentData(id);
     document.getElementById("talent-name").innerText = data.name;
     document.getElementById("talent-story").innerHTML = data.storyHTML;
-        
-    var contracts = document.getElementById("talent-link");
-    contracts.children[0].href = data.url_youtube;
-    contracts.children[1].href = data.url_twitter;
-    contracts.children[2].href = data.url_twitch;
-    updatePlatformIcon(data.url_twitch);
+	
+	const youtubeA = document.getElementById("talent-youtube");
+    const twitterA = document.getElementById("talent-twitter");
+    const platformA = document.getElementById("talent-platform");
+
+	setLinkVisible(youtubeA, data.url_youtube);
+    setLinkVisible(twitterA, data.url_twitter);
+    setLinkVisible(platformA, data.url_twitch);
+
+    if (platformA.style.display !== "none") {
+        updatePlatformIcon(data.url_twitch);
+    }
 
     updateTalentHighlight(id);
     if (scrollIntoView== true)
@@ -21,7 +27,7 @@ function getTalentData(id) {
                 name: "아스트 더 데우스",
                 storyHTML: "<div class='showNoMobile'><p>데이터들의 생성과 소멸이 반복하며 탄생한 아스트랄의 상상 속</p><p>최강의 생명체인 드래곤. 예상과는 달리 독립체로써 탄생한 데우스는 아스트랄을 흡수하고</p><p>떠돌다 자신을 찾기 위해서 브이레코드에 입학하게 된다.</p></div><div class='showOnlyMobile'>데이터들의 생성과 소멸이 반복하며 탄생한 아스트랄의 상상 속 최강의 생명체인 드래곤. 예상과는 달리 독립체로써 탄생한 데우스는 아스트랄을 흡수하고 떠돌다 자신을 찾기 위해서 브이레코드에 입학하게 된다.</div>",
                 url_youtube: "https://www.youtube.com/channel/UC8QeHScawb-0VWS8iudrVfg",
-                url_twitter: "https://twitter.com/vrecord_deus",
+                url_twitter: "https://x.com/Ast_The_Deus",
                 url_twitch: "https://chzzk.naver.com/4dc11ee5637bbf04d5bb52917bb6c41a"
             };
         case 1:
@@ -30,7 +36,7 @@ function getTalentData(id) {
                 storyHTML: "<div class='showNoMobile'><p>어릴 적 자신을 구해주고 나침반을 맡긴 이를 찾아 떠도는 코요테 수인.</p><p>매사에 긍정적이고 잘 웃는 편이지만, 어째서인지 주변에서 사건 사고가 끊이지를 않는다.</p><p>운동을 싫어하고 낮잠을 즐긴다. 대부분 멍하니 앉아 있다가 생기는 문제들이 많다.</p></div><div class='showOnlyMobile'>어릴 적 자신을 구해주고 나침반을 맡긴 이를 찾아 떠도는 코요테 수인. 매사에 긍정적이고 잘 웃는 편이지만, 어째서인지 주변에서 사건 사고가 끊이지를 않는다. 운동을 싫어하고 낮잠을 즐긴다. 대부분 멍하니 앉아 있다가 생기는 문제들이 많다.</div>",
                 url_youtube: "https://www.youtube.com/channel/UCtD8lp3h303iLyIJZ9c2lYA",
                 url_twitter: "https://twitter.com/vrecord_yunon",
-                url_twitch: "https://ch.sooplive.co.kr/vrecordyunon",
+                url_twitch: "https://chzzk.naver.com/575b8dd00630a025c9ad3729df908abf",
             };
         /*
         case 1:
@@ -149,7 +155,6 @@ function getTalentData(id) {
                 name: "타루",
                 storyHTML: "<div class='showNoMobile'><p>디지털 세계에 쌓인 로그 사이에서 태어난 고양이.</p><p>먹잇감을 쫓다 무수한 채팅 로그가 생성되는 인터넷 방송에 자리를 잡게 되고,</p><p>버튜버가 되어 데뷔를 하면 더 많은 로그를 먹을 수 있다는 생각에 하월학원에 입학하게 된다.</p></div><div class='showOnlyMobile'>디지털 세계에 쌓인 로그 사이에서 태어난 고양이. 먹잇감을 쫓다 무수한 채팅 로그가 생성되는 인터넷 방송에 자리를 잡게 되고, 버튜버가 되어 치지직에서 데뷔를 하면 더 많은 로그를 먹을 수 있다는 생각에 하월학원에 입학하게 된다.</div>",
                 url_youtube: "https://www.youtube.com/@vrecord_taru",
-                url_twitter: "https://twitter.com/vrecord_taru",
                 url_twitch:  "https://ch.sooplive.co.kr/tarusama"
             };
         case 4:
@@ -212,7 +217,7 @@ function getTalentData(id) {
             return {
                 name: "머피",
                 storyHTML: "<div class='showNoMobile'><p>세상의 이야기와 감정을 수집하고 전달하는 이야기의 요정 머피는 덜렁대는 성격 탓에 잦은 실수를 저지른다.</p><p>결국 일터에서 해고당한 머피는 상심하던 중 브이레코드에 관한 문구를 읽게된다.</p><p>그렇게 머피는 자신만의 이야기를 시작하기 위해 브이레코드에 입학하게 된다.</p></div><div class='showOnlyMobile'>세상의 이야기와 감정을 수집하고 전달하는 이야기의 요정 머피는 덜렁대는 성격 탓에 잦은 실수를 저지른다. 결국 일터에서 해고당한 머피는 상심하던 중 브이레코드에 관한 문구를 읽게된다. 그렇게 머피는 자신만의 이야기를 시작하기 위해 브이레코드에 입학하게 된다.</div>",
-                url_youtube: "https://www.youtube.com/@vrecord__murphy",
+                url_youtube: "https://www.youtube.com/@vrecord_murphy",
                 url_twitter: "https://x.com/vrecord_murphy",
                 url_twitch:  "https://chzzk.naver.com/8f99eb06d95ad8723673d8081a350417"
             };
@@ -230,7 +235,7 @@ function getTalentData(id) {
                 storyHTML: "<div class='showNoMobile'><p>저승에서 말 타고 올라온 죽음의 신 아누비스.</p><p>현재는 브이레코드 비허가 조직 세계정복동아리의 행동 대장이다.</p><p>강경 육체파지만 정작 운동은 귀찮아한다.</p></div><div class='showOnlyMobile'>저승에서 말 타고 올라온 죽음의 신 아누비스. 현재는 브이레코드 비허가 조직 세계정복동아리의 행동 대장이다. 강경 육체파지만 정작 운동은 귀찮아한다.</div>",
                 url_youtube: "https://www.youtube.com/@vrecord_maca",
                 url_twitter: "https://x.com/vrecord_maca",
-                url_twitch:  "https://chzzk.naver.com/f88e567b0914272ce7afcb427cff322b/about"
+                url_twitch:  "https://chzzk.naver.com/f88e567b0914272ce7afcb427cff322b"
             };
     }
 }
@@ -262,5 +267,16 @@ function updatePlatformIcon(url) {
         imgElement.src = "./image/icon_soop.png";
     } else {
         imgElement.src = "./image/icon_twitch.png";
+    }
+}
+
+function setLinkVisible(anchorEl, url) {
+    const hasUrl = typeof url === "string" && url.trim().length > 0;
+    if (hasUrl) {
+        anchorEl.href = url.trim();
+        anchorEl.style.display = "";   // 기본 표시
+    } else {
+        anchorEl.removeAttribute("href");
+        anchorEl.style.display = "none";
     }
 }
