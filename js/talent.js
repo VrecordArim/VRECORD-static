@@ -237,6 +237,14 @@ function getTalentData(id) {
                 url_twitter: "https://x.com/vrecord_maca",
                 url_twitch:  "https://chzzk.naver.com/f88e567b0914272ce7afcb427cff322b"
             };
+        case 12:
+            return {
+                name: "모서리",
+                storyHTML: "<div class='showNoMobile'><p>바닷가 작은 동네에서 온 여자아이.</p><p>세상을 유람하던 중 브이레코드 비허가 조직 세계정복동아리에 합류했다.</p><p>숫기가 없지만 사람과 대화하는 것을 좋아한다.</p></div><div class='showOnlyMobile'>바닷가 작은 동네에서 온 여자아이. 세상을 유람하던 중 브이레코드 비허가 조직 세계정복동아리에 합류했다. 숫기가 없지만 사람과 대화하는 것을 좋아한다.</div>",
+                url_youtube: "https://www.youtube.com/@vrecord_moseori",
+                url_twitter: "https://x.com/vrecord_seoli",
+                url_twitch:  "https://chzzk.naver.com/bc64d1142877738a7d31f584ae13ea79"
+            };
     }
 }
 
