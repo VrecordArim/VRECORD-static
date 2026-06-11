@@ -152,9 +152,12 @@ a, a:hover, a:focus, a:active {
   }
   
   #header > .apply {
-    display: none;
+    margin-right: 6.666666vw;
+    margin-bottom: 2vw;
+    padding: 8px 24px;
+    font-size: 13px;
   }
-  
+
   .nav-selected {
     padding-bottom: 13px;
     padding-top: 13px;
@@ -212,6 +215,9 @@ a, a:hover, a:focus, a:active {
   }
   
   #header > .apply {
-    display: none;
+    margin-right: 5vw;
+    margin-bottom: 3vw;
+    padding: 6px 16px;
+    font-size: 11px;
   }
 }
