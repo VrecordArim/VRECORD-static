@@ -245,6 +245,24 @@ function getTalentData(id) {
                 url_twitter: "https://x.com/vrecord_seoli",
                 url_twitch:  "https://chzzk.naver.com/bc64d1142877738a7d31f584ae13ea79"
             };
+
+        case 13:
+            return {
+                name: "요이",
+                storyHTML: "<div class='showNoMobile'><p>인간이 되고 싶어 신에게 기도한 온두라스 흰박쥐, 요이.</p><p>신에게 받은 나무 열매 100개 중 71개만 먹고 나머지를 잃어버려 뱀파이어가 되고 말았다.</p><p>친구를 찾아 인간 세상을 떠돌다 게임이라는 문명에 눈을 뜨고, 자신의 실력을 더 많은 사람들에게 보여주고 친구가 되고 싶어 브이레코드에 입학하게 된다.</p></div><div class='showOnlyMobile'>인간이 되고 싶어 신에게 기도한 온두라스 흰박쥐, 요이. 신에게 받은 나무 열매 100개 중 71개만 먹고 나머지를 잃어버려 뱀파이어가 되고 말았다. 친구를 찾아 인간 세상을 떠돌다 게임이라는 문명에 눈을 뜨고, 자신의 실력을 더 많은 사람들에게 보여주고 친구가 되고 싶어 브이레코드에 입학하게 된다.</div>",
+                url_youtube: "https://www.youtube.com/@vrecord_yoe",
+                url_twitter: "https://twitter.com/vrecord_yoee",
+                url_twitch:  "https://chzzk.id/yoe"
+            };
+
+        case 14:
+            return {
+                name: "시아",
+                storyHTML: "<div class='showNoMobile'><p>사람의 행복한 마음을 모아 오라는 과제를 받은 천계 학원의 천사, 시아.</p><p>우연히 줍게 된 게임기에 빠져 무작정 지상으로 내려왔다가, 신기한 것들로 가득한 세상에 설레고 만다.</p><p>천계로 돌아가려던 찰나 브이레코드 광고를 보고 브이레코드에 입학하게 된다.</p></div><div class='showOnlyMobile'>사람의 행복한 마음을 모아 오라는 과제를 받은 천계 학원의 천사, 시아. 우연히 줍게 된 게임기에 빠져무작정 지상으로 내려왔다가, 신기한 것들로 가득한 세상에 설레고 만다. 천계로 돌아가려던 찰나 브이레코드 광고를 보고 브이레코드에 입학하게 된다.</div>",
+                url_youtube: "https://www.youtube.com/@vrecord_sia",
+                url_twitter: "https://twitter.com/vrecord_sia",
+                url_twitch:  "https://chzzk.naver.com/7f5ce470dbc71195d99704422a02992b"
+            };
     }
 }
 
