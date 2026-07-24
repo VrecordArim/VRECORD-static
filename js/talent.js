@@ -263,6 +263,14 @@ function getTalentData(id) {
                 url_twitter: "https://twitter.com/vrecord_sia",
                 url_twitch:  "https://chzzk.naver.com/7f5ce470dbc71195d99704422a02992b"
             };
+        case 15:
+            return {
+                name: "키텔",
+                storyHTML: "<div class='showNoMobile'><p>10년 넘게 졸업생이 없는 연구실의 대학원생 출신, 물리학과 박사수료생(졸업 아님) 키텔.</p><p>학교생활만 22년차, 편하게 적응할 수 있을거라 믿고 위해 브이레코드에 입학했다.</p><p>하지만 이곳 학생들은 공부나 연구에는 전혀 관심이 없다. 다행히 이번에도 졸업과는 거리가 멀어보인다.</p></div><div class='showOnlyMobile'>10년 넘게 졸업생이 없는 연구실의 대학원생 출신, 물리학과 박사수료생(졸업 아님) 키텔. 학교생활만 22년차, 편하게 적응할 수 있을거라 믿고 위해 브이레코드에 입학했다. 하지만 이곳 학생들은 공부나 연구에는 전혀 관심이 없다. 다행히 이번에도 졸업과는 거리가 멀어보인다.</div>",
+                url_youtube: "https://www.youtube.com/@키텔KITTEL",
+                url_twitter: "https://x.com/kittel412",
+                url_twitch:  "https://chzzk.naver.com/48d1f6c3fb214ca13afacd0ab1f639dc"
+            };
     }
 }
 
