@@ -263,6 +263,7 @@ function getTalentData(id) {
                 url_twitter: "https://twitter.com/vrecord_sia",
                 url_twitch:  "https://chzzk.naver.com/7f5ce470dbc71195d99704422a02992b"
             };
+
         case 15:
             return {
                 name: "키텔",
@@ -270,6 +271,15 @@ function getTalentData(id) {
                 url_youtube: "https://www.youtube.com/@키텔KITTEL",
                 url_twitter: "https://x.com/kittel412",
                 url_twitch:  "https://chzzk.naver.com/48d1f6c3fb214ca13afacd0ab1f639dc"
+            };
+            
+        case 16:
+            return {
+                name: "스이무",
+                storyHTML: "<div class='showNoMobile'><p>정체성을 찾아 정처 없이 바닷속을 떠도는 해파리 스이무.</p><p>태생부터 음악을 사랑해 노래로 세상과 자신을 풀어내고 싶었지만, 못난 목소리를 미워하게 되었다.</p><p>그래도 노래하는 게 좋아 감정과 생각을 계속 노래해왔고, 자신을 알리기 위해 방송을 시작하게 되었다.</p></div><div class='showOnlyMobile'>정체성을 찾아 정처 없이 바닷속을 떠도는 해파리 스이무. 태생부터 음악을 사랑해 노래로 세상과 자신을 풀어내고 싶었지만, 못난 목소리를 미워하게 되었다. 그래도 노래하는 게 좋아 감정과 생각을 계속 노래해왔고, 자신을 알리기 위해 방송을 시작하게 되었다.</div>",
+                url_youtube: "https://www.youtube.com/@vrecord_suimu",
+                url_twitter: "https://x.com/vrecord_suimu",
+                url_twitch:  "https://chzzk.naver.com/cd5481267bafb98094cf7a8e492284d3"
             };
     }
 }
