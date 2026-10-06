@@ -281,6 +281,14 @@ function getTalentData(id) {
                 url_twitter: "https://x.com/vrecord_suimu",
                 url_twitch:  "https://chzzk.naver.com/cd5481267bafb98094cf7a8e492284d3"
             };
+        case 17:
+            return {
+                name: "네오 지오",
+                storyHTML: "<div class='showNoMobile'><p>은하계 민원 처리용 안드로이드 네오 지오.</p><p>감정을 유독 이해하지 못해 불량 판정을 받고 폐기될 위기에 놓인다.</p><p>폐기를 피하려고 감정을 배우러 지구에 왔지만, 이번엔 누진세 폭탄을 맞아 방전될 위기!</p><p>결국 전기요금을 벌기 위해 브이레코드에 입학하게 된다.</p></div><div class='showOnlyMobile'>은하계 민원 처리용 안드로이드 네오 지오.  감정을 유독 이해하지 못해 불량 판정을 받고 폐기될 위기에 놓인다. 폐기를 피하려고 감정을 배우러 지구에 왔지만, 이번엔 누진세 폭탄을 맞아 방전될 위기! 결국 전기요금을 벌기 위해 브이레코드에 입학하게 된다.</div>",
+                url_youtube: "https://www.youtube.com/@vrecord_go",
+                url_twitter: "https://x.com/vrecord_go",
+                url_twitch:  "https://chzzk.naver.com/c2f1439ba2c03327eb36f49506f5e2bd"
+            };
     }
 }
 
